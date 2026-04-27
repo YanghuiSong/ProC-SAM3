@@ -1,0 +1,9 @@
+cfg_loveda_exp_cached
+aAcc: 56.53
+mIoU: 42.55
+mAcc: 64.23
+AP50: 39.98
+AP75: 13.04
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0

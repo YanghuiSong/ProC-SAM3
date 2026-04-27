@@ -1,0 +1,386 @@
+COMMAND: /home/syh/.conda/envs/segearth_clean/bin/python /data/users/syh/QwSAM3/eval.py /data/users/syh/QwSAM3/configs/cfg_potsdam_controlled.py --launcher none --percent 100.0 --seed 42
+STARTED_AT: 2026-04-20T02:02:32
+
+/data/users/syh/QwSAM3/mmengine/optim/optimizer/zero_optimizer.py:11: DeprecationWarning: `TorchScript` support for functional optimizers is deprecated and will be removed in a future PyTorch release. Consider using the `torch.compile` optimizer instead.
+  from torch.distributed.optim import \
+/data/users/syh/QwSAM3
+Generating expanded prompt pool at ./prompt_pools/cfg_potsdam_controlled_expanded_prompt_pool_hybrid_strict.pkl...
+Using hybrid_strict optimization method. Refining prompts under exp-file constraints.
+Exp file found: ./configs/cls_potsdam_exp.txt, using it as strict constraint set
+Found 5 images to process for prompt expansion (limit: 5)
+Classes: ['road', 'building', 'grass', 'tree', 'car', 'clutter']
+Loading Qwen3-VL model...
+使用显卡: cuda:0
+显存统计 - 总量: 23.5GB, 已分配: 0.0GB, 缓存: 0.0GB, 剩余: 23.5GB
+  Model path: /data/public/Qwen3-VL-8B-Instruct
+  Device: cuda:0
+  Dataset: potsdamdataset
+使用显卡: cuda:0
+显存统计 - 总量: 23.5GB, 已分配: 0.0GB, 缓存: 0.0GB, 剩余: 23.5GB
+  Model precision: torch.bfloat16
+/home/syh/.conda/envs/segearth_clean/lib/python3.10/site-packages/transformers/models/auto/modeling_auto.py:2284: FutureWarning: The class `AutoModelForVision2Seq` is deprecated and will be removed in v5.0. Please use `AutoModelForImageTextToText` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.24it/s]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.24it/s]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.24it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.47it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.37it/s]
+✓ Qwen3-VL model loaded successfully
+  Model device: cuda:0
+Generating expanded class prompts for classes: ['road', 'building', 'grass', 'tree', 'car', 'clutter']
+Optimization method: hybrid_strict
+Using hybrid_strict optimization approach
+Refining prompts for class: road
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Refining prompts for class: building
+Refining prompts for class: grass
+Refining prompts for class: tree
+Refining prompts for class: car
+Refining prompts for class: clutter
+Expanded prompt pool generated and saved to ./prompt_pools/cfg_potsdam_controlled_expanded_prompt_pool_hybrid_strict.pkl
+Prompt pool contains 6 classes
+  road: 3 prompts
+    Prompts: ['road', 'path', 'sidewalk']
+  building: 1 prompts
+    Prompts: ['building']
+  grass: 3 prompts
+    Prompts: ['grass', 'grey grassland', 'lawn']
+  tree: 1 prompts
+    Prompts: ['tree']
+  car: 1 prompts
+    Prompts: ['car']
+  clutter: 3 prompts
+    Prompts: ['clutter', 'mixed', 'scattered']
+Expanded prompt pool generation completed. Saved to ./prompt_pools/cfg_potsdam_controlled_expanded_prompt_pool_hybrid_strict.pkl
+Model does not require prompt pool, skipping check.
+04/20 02:05:16 - mmengine - INFO - 
+------------------------------------------------------------
+System environment:
+    sys.platform: linux
+    Python: 3.10.19 | packaged by conda-forge | (main, Oct 22 2025, 22:29:10) [GCC 14.3.0]
+    CUDA available: True
+    MUSA available: False
+    numpy_random_seed: 416843093
+    GPU 0,1,2,3,4,5,6,7: NVIDIA GeForce RTX 4090
+    CUDA_HOME: /usr/local/cuda
+    NVCC: Cuda compilation tools, release 12.6, V12.6.20
+    GCC: gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+    PyTorch: 2.4.0+cu121
+    PyTorch compiling details: PyTorch built with:
+  - GCC 9.3
+  - C++ Version: 201703
+  - Intel(R) oneAPI Math Kernel Library Version 2022.2-Product Build 20220804 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v3.4.2 (Git Hash 1137e04ec0b5251ca2b4400a4fd3c667ce843d67)
+  - OpenMP 201511 (a.k.a. OpenMP 4.5)
+  - LAPACK is enabled (usually provided by MKL)
+  - NNPACK is enabled
+  - CPU capability usage: AVX512
+  - CUDA Runtime 12.1
+  - NVCC architecture flags: -gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_90,code=sm_90
+  - CuDNN 90.1  (built against CUDA 12.4)
+  - Magma 2.6.1
+  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=12.1, CUDNN_VERSION=9.1.0, CXX_COMPILER=/opt/rh/devtoolset-9/root/usr/bin/c++, CXX_FLAGS= -D_GLIBCXX_USE_CXX11_ABI=0 -fabi-version=11 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DUSE_FBGEMM -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-unused-function -Wno-unused-result -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=pedantic -Wno-error=old-style-cast -Wno-missing-braces -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_VERSION=2.4.0, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=1, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=1, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, 
+
+    TorchVision: 0.19.0+cu121
+    OpenCV: 4.12.0
+    MMEngine: 0.11.0rc0
+
+Runtime environment:
+    cudnn_benchmark: True
+    mp_cfg: {'mp_start_method': 'fork', 'opencv_num_threads': 0}
+    dist_cfg: {'backend': 'nccl'}
+    seed: 416843093
+    Distributed launcher: none
+    Distributed training: False
+    GPU number: 1
+------------------------------------------------------------
+
+04/20 02:05:16 - mmengine - INFO - Config:
+class_names = [
+    'impervious_surface',
+    'building',
+    'low_vegetation',
+    'tree',
+    'car',
+    'clutter',
+]
+data = dict(
+    samples_per_gpu=4,
+    val=dict(
+        ann_dir='ann_dir/val',
+        data_root='/data/public/Potsdam',
+        img_dir='img_dir/val',
+        pipeline=[
+            dict(type='LoadImageFromFile'),
+            dict(type='LoadAnnotations'),
+            dict(type='PackSegInputs'),
+        ],
+        type='PotsdamDataset'),
+    workers_per_gpu=8)
+data_root = '/data/public/Potsdam'
+dataset_type = 'PotsdamDataset'
+default_hooks = dict(
+    checkpoint=dict(by_epoch=False, interval=2000, type='CheckpointHook'),
+    logger=dict(interval=50, log_metric_by_epoch=False, type='LoggerHook'),
+    param_scheduler=dict(type='ParamSchedulerHook'),
+    sampler_seed=dict(type='DistSamplerSeedHook'),
+    timer=dict(type='IterTimerHook'),
+    visualization=dict(interval=1, type='SegVisualizationHook'))
+default_scope = 'mmseg'
+env_cfg = dict(
+    cudnn_benchmark=True,
+    dist_cfg=dict(backend='nccl'),
+    mp_cfg=dict(mp_start_method='fork', opencv_num_threads=0))
+launcher = 'none'
+load_from = None
+log_level = 'INFO'
+log_processor = dict(by_epoch=False)
+model = dict(
+    auto_tune_slot_batch=False,
+    bg_idx=5,
+    cache_text_embeddings=True,
+    ccpea_consensus_weight=0.3,
+    ccpea_instance_weight=0.3,
+    ccpea_pool_size=8,
+    ccpea_presence_weight=0.7,
+    ccpea_prompt_fusion_alpha=0.6,
+    ccpea_topk=2,
+    ccpea_uncertainty_weight=0.5,
+    class_aggregation='max_second_agreement',
+    class_aggregation_boost_agreement_threshold=0.8,
+    class_aggregation_boost_max_coverage=0.3,
+    class_aggregation_consensus_beta=8.0,
+    class_aggregation_consensus_boost=0.3,
+    class_aggregation_coverage_penalty=0.2,
+    class_aggregation_gem_power=6.0,
+    class_aggregation_keep_ratio=0.85,
+    class_aggregation_max_selected=0,
+    class_aggregation_reliability_alpha=0.7,
+    class_aggregation_second_boost_scale=0.18,
+    class_aggregation_second_suppress_scale=0.0,
+    class_aggregation_support_ratio=0.7,
+    class_aggregation_temperature=0.4,
+    class_aggregation_topk=2,
+    classname_path='./configs/cls_potsdam.txt',
+    compile_model=False,
+    confidence_threshold=0.4,
+    enable_expanded_prompt=True,
+    execution_mode='per_image',
+    expanded_prompt_pool_path=
+    './prompt_pools/cfg_potsdam_controlled_expanded_prompt_pool_hybrid_strict.pkl',
+    group_images_by_size=True,
+    image_batch_size=4,
+    image_encoder_dtype='bf16',
+    inference_dtype='fp32',
+    mask_query_chunk_size=32,
+    max_cross_image_slots=15,
+    max_mask_tensor_mb=1024,
+    model_type='SAM3',
+    optimize_method='hybrid_strict',
+    prob_thd=0.1,
+    processor_resolution=1008,
+    prompt_batch_size=15,
+    router_enabled=False,
+    shared_image_encoder_batch=True,
+    slide_crop=0,
+    slide_stride=0,
+    slot_batch_size=0,
+    slot_chunk_size=4,
+    type='CachedSAM3OpenSegmentor',
+    use_presence_score=True,
+    use_sem_seg=True,
+    use_transformer_decoder=True)
+resume = False
+test_cfg = dict(type='TestLoop')
+test_dataloader = dict(
+    batch_size=4,
+    dataset=dict(
+        data_prefix=dict(img_path='img_dir/val', seg_map_path='ann_dir/val'),
+        data_root='/data/public/Potsdam',
+        pipeline=[
+            dict(type='LoadImageFromFile'),
+            dict(type='LoadAnnotations'),
+            dict(type='PackSegInputs'),
+        ],
+        type='PotsdamDataset'),
+    num_workers=8,
+    persistent_workers=True,
+    sampler=dict(shuffle=False, type='DefaultSampler'))
+test_evaluator = dict(
+    ignore_index=255,
+    iou_metrics=[
+        'mIoU',
+    ],
+    iou_thresholds=[
+        0.5,
+        0.75,
+    ],
+    type='CombinedMetrics')
+vis_backends = [
+    dict(type='LocalVisBackend'),
+]
+visualizer = dict(
+    alpha=0.7,
+    name='visualizer',
+    type='SegLocalVisualizer',
+    vis_backends=[
+        dict(type='LocalVisBackend'),
+    ])
+work_dir = './work_dirs/cfg_potsdam_controlled'
+
+Initial query words from ./configs/cls_potsdam.txt: 6
+  1. road (index 0)
+  2. building (index 1)
+  3. grass (index 2)
+  4. tree (index 3)
+  5. car (index 4)
+  6. clutter (index 5)
+Looking for expanded prompt pool at: ./prompt_pools/cfg_potsdam_controlled_expanded_prompt_pool_hybrid_strict.pkl
+Loading expanded prompt pool from ./prompt_pools/cfg_potsdam_controlled_expanded_prompt_pool_hybrid_strict.pkl
+Loaded expanded prompt pool with 6 classes:
+  road: ['road', 'path', 'sidewalk']
+  building: ['building']
+  grass: ['grass', 'grey grassland', 'lawn']
+  tree: ['tree']
+  car: ['car']
+  clutter: ['clutter', 'mixed', 'scattered']
+Using expanded prompt pool with 12 query words:
+   1. road (class 0)
+   2. path (class 0)
+   3. sidewalk (class 0)
+   4. building (class 1)
+   5. grass (class 2)
+   6. grey grassland (class 2)
+   7. lawn (class 2)
+   8. tree (class 3)
+   9. car (class 4)
+  10. clutter (class 5)
+  11. mixed (class 5)
+  12. scattered (class 5)
+Computing text embeddings for 12 query words...
+Computed text embeddings: language_features torch.Size([32, 12, 256]), language_mask torch.Size([12, 32])
+Cached text embeddings for ./configs/cls_potsdam.txt_43aa660f768f609053ecaea419bd4ce8_cuda
+GroundingExecutionEngine configured with image_batch_size=4, prompt_batch_size=12, slot_batch_size=auto, auto_tune_slot_batch=False, execution_mode=per_image, shared_image_encoder_batch=True, inference_dtype=fp32, image_encoder_dtype=bf16, group_images_by_size=True
+04/20 02:05:26 - mmengine - INFO - Distributed training is not used, all SyncBatchNorm (SyncBN) layers in the model will be automatically reverted to BatchNormXd layers if they are used.
+/data/users/syh/QwSAM3/mmseg/engine/hooks/visualization_hook.py:61: UserWarning: The draw is False, it means that the hook for visualization will not take effect. The results will NOT be visualized or stored.
+  warnings.warn('The draw is False, it means that the '
+04/20 02:05:26 - mmengine - INFO - Hooks will be executed in the following order:
+before_run:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+before_train:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(NORMAL      ) IterTimerHook                      
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+before_train_epoch:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(NORMAL      ) IterTimerHook                      
+(NORMAL      ) DistSamplerSeedHook                
+ -------------------- 
+before_train_iter:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+after_train_iter:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(NORMAL      ) IterTimerHook                      
+(NORMAL      ) SegVisualizationHook               
+(BELOW_NORMAL) LoggerHook                         
+(LOW         ) ParamSchedulerHook                 
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+after_train_epoch:
+(NORMAL      ) IterTimerHook                      
+(LOW         ) ParamSchedulerHook                 
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+before_val:
+(VERY_HIGH   ) RuntimeInfoHook                    
+ -------------------- 
+before_val_epoch:
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+before_val_iter:
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+after_val_iter:
+(NORMAL      ) IterTimerHook                      
+(NORMAL      ) SegVisualizationHook               
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+after_val_epoch:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(NORMAL      ) IterTimerHook                      
+(BELOW_NORMAL) LoggerHook                         
+(LOW         ) ParamSchedulerHook                 
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+after_val:
+(VERY_HIGH   ) RuntimeInfoHook                    
+ -------------------- 
+after_train:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+before_test:
+(VERY_HIGH   ) RuntimeInfoHook                    
+ -------------------- 
+before_test_epoch:
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+before_test_iter:
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+after_test_iter:
+(NORMAL      ) IterTimerHook                      
+(NORMAL      ) SegVisualizationHook               
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+after_test_epoch:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(NORMAL      ) IterTimerHook                      
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+after_test:
+(VERY_HIGH   ) RuntimeInfoHook                    
+ -------------------- 
+after_run:
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+Model is not ImprovedEnhancedSegEarthOV3Segmentation, skipping concept pool building.
+04/20 02:05:26 - mmengine - WARNING - The prefix is not set in metric class CombinedMetrics.
+04/20 02:05:26 - mmengine - WARNING - The prefix is not set in metric class IoUMetric.
+04/20 02:05:26 - mmengine - WARNING - The prefix is not set in metric class SegAPMetric.
+Resolved effective prompt batch size 12 for 1 images at (512, 512)
+04/20 02:06:52 - mmengine - INFO - Iter(test) [ 50/504]    eta: 0:12:54  time: 1.6508  data_time: 0.0045  memory: 16874  
+04/20 02:08:15 - mmengine - INFO - Iter(test) [100/504]    eta: 0:11:19  time: 1.6745  data_time: 0.0041  memory: 8871  
+04/20 02:09:39 - mmengine - INFO - Iter(test) [150/504]    eta: 0:09:57  time: 1.6902  data_time: 0.0060  memory: 8871  
+04/20 02:11:03 - mmengine - INFO - Iter(test) [200/504]    eta: 0:08:31  time: 1.6593  data_time: 0.0043  memory: 8871  
+04/20 02:12:26 - mmengine - INFO - Iter(test) [250/504]    eta: 0:07:06  time: 1.6627  data_time: 0.0042  memory: 8871  
+04/20 02:13:49 - mmengine - INFO - Iter(test) [300/504]    eta: 0:05:41  time: 1.6641  data_time: 0.0051  memory: 8871  
+04/20 02:15:13 - mmengine - INFO - Iter(test) [350/504]    eta: 0:04:18  time: 1.6796  data_time: 0.0048  memory: 8871  
+04/20 02:16:36 - mmengine - INFO - Iter(test) [400/504]    eta: 0:02:53  time: 1.6587  data_time: 0.0048  memory: 8871  
+04/20 02:17:59 - mmengine - INFO - Iter(test) [450/504]    eta: 0:01:30  time: 1.6651  data_time: 0.0045  memory: 8871  
+04/20 02:19:21 - mmengine - INFO - Iter(test) [500/504]    eta: 0:00:06  time: 1.6424  data_time: 0.0042  memory: 8871  
+04/20 02:19:28 - mmengine - INFO - per class results:
+04/20 02:19:28 - mmengine - INFO - 
++--------------------+-------+-------+
+|       Class        |  IoU  |  Acc  |
++--------------------+-------+-------+
+| impervious_surface | 74.76 | 90.16 |
+|      building      | 85.11 | 91.33 |
+|   low_vegetation   | 57.39 |  84.5 |
+|        tree        | 35.94 | 36.79 |
+|        car         |  78.5 | 94.64 |
+|      clutter       |  18.6 | 33.69 |
++--------------------+-------+-------+
+04/20 02:19:28 - mmengine - INFO - Iter(test) [504/504]    aAcc: 77.7600  mIoU: 58.3800  mAcc: 71.8600  AP50: 59.0400  AP75: 42.3000  data_time: 0.0059  time: 1.6697
+Counting analysis not enabled, skipping.
+
+RETURN_CODE: 0
+TIMED_OUT: false

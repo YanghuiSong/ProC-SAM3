@@ -1,0 +1,36 @@
+cfg_iSAID_exp
+aAcc: 82.76
+mIoU: 25.01
+mAcc: 65.43
+AP50: 34.44
+AP75: 19.05
+Model: SAM3
+Dataset: iSAIDDataset
+Data_Percent: 100.0
+cfg_iSAID_exp
+aAcc: 82.96
+mIoU: 26.03
+mAcc: 64.42
+AP50: 35.48
+AP75: 19.44
+Model: SAM3
+Dataset: iSAIDDataset
+Data_Percent: 100.0
+cfg_iSAID_exp
+aAcc: 91.11
+mIoU: 29.33
+mAcc: 61.71
+AP50: 33.6
+AP75: 18.89
+Model: SAM3
+Dataset: iSAIDDataset
+Data_Percent: 100.0
+cfg_iSAID_exp
+aAcc: 91.11
+mIoU: 29.33
+mAcc: 61.71
+AP50: 33.6
+AP75: 18.88
+Model: SAM3
+Dataset: iSAIDDataset
+Data_Percent: 100.0

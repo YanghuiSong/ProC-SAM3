@@ -1,0 +1,9 @@
+cfg_potsdam_exp_cached
+aAcc: 78.06
+mIoU: 58.61
+mAcc: 71.93
+AP50: 59.33
+AP75: 42.5
+Model: SAM3
+Dataset: PotsdamDataset
+Data_Percent: 100.0

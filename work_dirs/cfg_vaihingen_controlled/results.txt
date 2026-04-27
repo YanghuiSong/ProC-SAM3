@@ -1,0 +1,198 @@
+cfg_vaihingen_controlled
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 62.23
+mIoU: 51.17
+mAcc: 68.78
+AP50: 56.64
+AP75: 36.37
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 62.23
+mIoU: 51.17
+mAcc: 68.78
+AP50: 56.64
+AP75: 36.37
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 84.48
+mIoU: 63.1
+mAcc: 77.97
+AP50: 71.06
+AP75: 46.27
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 75.43
+mIoU: 55.23
+mAcc: 76.44
+AP50: 61.63
+AP75: 38.38
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 66.07
+mIoU: 44.26
+mAcc: 60.48
+AP50: 47.24
+AP75: 26.27
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 85.02
+mIoU: 64.5
+mAcc: 79.79
+AP50: 73.36
+AP75: 46.63
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 85.02
+mIoU: 64.5
+mAcc: 79.79
+AP50: 73.36
+AP75: 46.63
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 84.77
+mIoU: 63.96
+mAcc: 79.94
+AP50: 73.1
+AP75: 47.1
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 84.88
+mIoU: 64.09
+mAcc: 79.78
+AP50: 73.4
+AP75: 47.15
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 84.88
+mIoU: 64.09
+mAcc: 79.78
+AP50: 73.4
+AP75: 47.15
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 85.08
+mIoU: 64.24
+mAcc: 79.5
+AP50: 73.49
+AP75: 47.01
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 84.97
+mIoU: 64.13
+mAcc: 79.78
+AP50: 73.05
+AP75: 46.97
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 85.02
+mIoU: 64.5
+mAcc: 79.79
+AP50: 73.36
+AP75: 46.63
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 84.89
+mIoU: 64.03
+mAcc: 79.74
+AP50: 73.01
+AP75: 46.97
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_controlled
+aAcc: 84.56
+mIoU: 64.3
+mAcc: 80.13
+AP50: 73.18
+AP75: 48.79
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0

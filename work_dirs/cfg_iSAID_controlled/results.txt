@@ -1,0 +1,72 @@
+cfg_iSAID_controlled
+aAcc: 84.92
+mIoU: 20.59
+mAcc: 53.68
+AP50: 27.72
+AP75: 14.78
+Model: SAM3
+Dataset: iSAIDDataset
+Data_Percent: 100.0
+cfg_iSAID_controlled
+aAcc: 92.05
+mIoU: 22.27
+mAcc: 51.05
+AP50: 26.64
+AP75: 14.54
+Model: SAM3
+Dataset: iSAIDDataset
+Data_Percent: 100.0
+cfg_iSAID_controlled
+aAcc: 92.02
+mIoU: 24.89
+mAcc: 56.51
+AP50: 29.69
+AP75: 16.11
+Model: SAM3
+Dataset: iSAIDDataset
+Data_Percent: 100.0
+cfg_iSAID_controlled
+aAcc: 92.03
+mIoU: 24.9
+mAcc: 56.54
+AP50: 29.66
+AP75: 16.13
+Model: SAM3
+Dataset: iSAIDDataset
+Data_Percent: 100.0
+cfg_iSAID_controlled
+aAcc: 92.04
+mIoU: 25.1
+mAcc: 56.77
+AP50: 29.68
+AP75: 16.23
+Model: SAM3
+Dataset: iSAIDDataset
+Data_Percent: 100.0
+cfg_iSAID_controlled
+aAcc: 90.74
+mIoU: 26.79
+mAcc: 61.5
+AP50: 33.49
+AP75: 18.68
+Model: SAM3
+Dataset: iSAIDDataset
+Data_Percent: 100.0
+cfg_iSAID_controlled
+aAcc: 90.75
+mIoU: 26.85
+mAcc: 61.62
+AP50: 33.53
+AP75: 18.84
+Model: SAM3
+Dataset: iSAIDDataset
+Data_Percent: 100.0
+cfg_iSAID_controlled
+aAcc: 91.55
+mIoU: 29.68
+mAcc: 61.28
+AP50: 34.55
+AP75: 20.28
+Model: SAM3
+Dataset: iSAIDDataset
+Data_Percent: 100.0

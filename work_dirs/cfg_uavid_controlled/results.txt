@@ -1,0 +1,90 @@
+cfg_uavid_controlled
+aAcc: 76.47
+mIoU: 59.75
+mAcc: 74.96
+AP50: 61.31
+AP75: 25.0
+Model: SAM3
+Dataset: UAVidDataset
+Data_Percent: 100.0
+cfg_uavid_controlled
+aAcc: 76.56
+mIoU: 59.74
+mAcc: 74.94
+AP50: 60.12
+AP75: 24.4
+Model: SAM3
+Dataset: UAVidDataset
+Data_Percent: 100.0
+cfg_uavid_controlled
+aAcc: 76.77
+mIoU: 59.17
+mAcc: 75.38
+AP50: 58.93
+AP75: 25.0
+Model: SAM3
+Dataset: UAVidDataset
+Data_Percent: 100.0
+cfg_uavid_controlled
+aAcc: 76.47
+mIoU: 59.75
+mAcc: 74.96
+AP50: 61.31
+AP75: 25.0
+Model: SAM3
+Dataset: UAVidDataset
+Data_Percent: 100.0
+cfg_uavid_controlled
+aAcc: 76.48
+mIoU: 59.76
+mAcc: 74.97
+AP50: 61.31
+AP75: 25.0
+Model: SAM3
+Dataset: UAVidDataset
+Data_Percent: 100.0
+cfg_uavid_controlled
+aAcc: 74.18
+mIoU: 56.73
+mAcc: 70.85
+AP50: 58.93
+AP75: 17.26
+Model: SAM3
+Dataset: UAVidDataset
+Data_Percent: 100.0
+cfg_uavid_controlled
+aAcc: 74.82
+mIoU: 57.27
+mAcc: 72.02
+AP50: 58.33
+AP75: 21.43
+Model: SAM3
+Dataset: UAVidDataset
+Data_Percent: 100.0
+cfg_uavid_controlled
+aAcc: 76.44
+mIoU: 59.71
+mAcc: 75.02
+AP50: 60.12
+AP75: 24.4
+Model: SAM3
+Dataset: UAVidDataset
+Data_Percent: 100.0
+cfg_uavid_controlled
+aAcc: 76.48
+mIoU: 59.76
+mAcc: 74.97
+AP50: 61.31
+AP75: 25.0
+Model: SAM3
+Dataset: UAVidDataset
+Data_Percent: 100.0
+cfg_uavid_controlled
+aAcc: 76.09
+mIoU: 59.73
+mAcc: 73.51
+AP50: 61.9
+AP75: 25.0
+Model: SAM3
+Dataset: UAVidDataset
+Data_Percent: 100.0

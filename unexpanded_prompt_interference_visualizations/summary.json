@@ -1,0 +1,77 @@
+{
+  "LoveDA": {
+    "unexpanded_classes": [],
+    "results": []
+  },
+  "Potsdam": {
+    "unexpanded_classes": [
+      "building",
+      "tree",
+      "car"
+    ],
+    "results": [
+      {
+        "image": "2_13_0_2560_512_3072.png",
+        "target_class": "building",
+        "output_path": "/data/users/syh/QwSAM3/unexpanded_prompt_interference_visualizations/Potsdam/2_13_0_2560_512_3072_building_interference.png",
+        "lost_pixels": 327,
+        "gained_pixels": 0
+      },
+      {
+        "image": "2_13_512_2560_1024_3072.png",
+        "target_class": "building",
+        "output_path": "/data/users/syh/QwSAM3/unexpanded_prompt_interference_visualizations/Potsdam/2_13_512_2560_1024_3072_building_interference.png",
+        "lost_pixels": 2037,
+        "gained_pixels": 0
+      },
+      {
+        "image": "3_14_4096_4096_4608_4608.png",
+        "target_class": "tree",
+        "output_path": "/data/users/syh/QwSAM3/unexpanded_prompt_interference_visualizations/Potsdam/3_14_4096_4096_4608_4608_tree_interference.png",
+        "lost_pixels": 21047,
+        "gained_pixels": 0
+      }
+    ]
+  },
+  "Vaihingen": {
+    "unexpanded_classes": [],
+    "results": []
+  },
+  "iSAID": {
+    "unexpanded_classes": [
+      "ship",
+      "baseball diamond",
+      "tennis court",
+      "basketball court",
+      "bridge",
+      "large vehicle",
+      "small vehicle",
+      "helicopter",
+      "swimming pool",
+      "harbor"
+    ],
+    "results": [
+      {
+        "image": "P0261_202_1098_518_1414.png",
+        "target_class": "harbor",
+        "output_path": "/data/users/syh/QwSAM3/unexpanded_prompt_interference_visualizations/iSAID/P0261_202_1098_518_1414_harbor_interference.png",
+        "lost_pixels": 8,
+        "gained_pixels": 1
+      },
+      {
+        "image": "P0262_0_896_0_896.png",
+        "target_class": "harbor",
+        "output_path": "/data/users/syh/QwSAM3/unexpanded_prompt_interference_visualizations/iSAID/P0262_0_896_0_896_harbor_interference.png",
+        "lost_pixels": 153537,
+        "gained_pixels": 2
+      },
+      {
+        "image": "P0683_0_896_0_896.png",
+        "target_class": "harbor",
+        "output_path": "/data/users/syh/QwSAM3/unexpanded_prompt_interference_visualizations/iSAID/P0683_0_896_0_896_harbor_interference.png",
+        "lost_pixels": 1,
+        "gained_pixels": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,4384 @@
+[
+  {
+    "dataset": "Vaihingen",
+    "prompt_type": "original",
+    "overall_mean_iou": 0.06748077320267701,
+    "per_class_avg_iou": {
+      "class_0": 0.06416194915728955,
+      "class_1": 0.11465288626398626,
+      "class_2": 0.09138132564722794,
+      "class_3": 0.11451177162683546,
+      "class_4": 0.015053278279416877,
+      "class_5": 0.000778080364586228
+    },
+    "per_image_results": [
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area33_512_512_1024_1024.png",
+        "ious": [
+          0.1228188195884073,
+          0.00021025723312547378,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.02050484613692213,
+        "per_class_iou": {
+          "road": 0.1228188195884073,
+          "building": 0.00021025723312547378,
+          "grass": 0.0,
+          "tree": 0.0,
+          "car": 0.0,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area24_512_2034_1024_2546.png",
+        "ious": [
+          0.0559961090316987,
+          0.036068547797165625,
+          0.2607360335771845,
+          0.20747626759240206,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.09337949299974181,
+        "per_class_iou": {
+          "road": 0.0559961090316987,
+          "building": 0.036068547797165625,
+          "grass": 0.2607360335771845,
+          "tree": 0.20747626759240206,
+          "car": 0.0,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area14_512_1536_1024_2048.png",
+        "ious": [
+          0.056224597320487735,
+          0.10621083063311279,
+          0.12005834977996249,
+          0.1754698366099574,
+          0.012912100614972026,
+          0.0
+        ],
+        "mean_iou": 0.0784792858264154,
+        "per_class_iou": {
+          "road": 0.056224597320487735,
+          "building": 0.10621083063311279,
+          "grass": 0.12005834977996249,
+          "tree": 0.1754698366099574,
+          "car": 0.012912100614972026,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area22_1024_2034_1536_2546.png",
+        "ious": [
+          0.07567485847709597,
+          0.2609212352532963,
+          0.11600086608206127,
+          0.04052261452635787,
+          0.031836759779969886,
+          0.0
+        ],
+        "mean_iou": 0.08749272235313021,
+        "per_class_iou": {
+          "road": 0.07567485847709597,
+          "building": 0.2609212352532963,
+          "grass": 0.11600086608206127,
+          "tree": 0.04052261452635787,
+          "car": 0.031836759779969886,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area38_1536_2038_2048_2550.png",
+        "ious": [
+          0.12082348498622397,
+          0.1062656130512363,
+          0.19104672760154456,
+          0.07490599783126083,
+          0.02706327537481439,
+          0.0
+        ],
+        "mean_iou": 0.08668418314084668,
+        "per_class_iou": {
+          "road": 0.12082348498622397,
+          "building": 0.1062656130512363,
+          "grass": 0.19104672760154456,
+          "tree": 0.07490599783126083,
+          "car": 0.02706327537481439,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area10_1375_1536_1887_2048.png",
+        "ious": [
+          0.05007164464257284,
+          0.014987927657054348,
+          0.0009645187159980059,
+          0.302873698933716,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.061482964991556865,
+        "per_class_iou": {
+          "road": 0.05007164464257284,
+          "building": 0.014987927657054348,
+          "grass": 0.0009645187159980059,
+          "tree": 0.302873698933716,
+          "car": 0.0,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area4_512_1536_1024_2048.png",
+        "ious": [
+          0.06472275442992052,
+          0.36652898959680763,
+          0.0,
+          0.0,
+          0.021516754850088183,
+          0.0
+        ],
+        "mean_iou": 0.0754614164794694,
+        "per_class_iou": {
+          "road": 0.06472275442992052,
+          "building": 0.36652898959680763,
+          "grass": 0.0,
+          "tree": 0.0,
+          "car": 0.021516754850088183,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area16_512_1536_1024_2048.png",
+        "ious": [
+          0.0146505589996291,
+          0.04872645512559103,
+          0.06549685736160818,
+          0.2392228715842679,
+          0.008727341186595664,
+          0.0
+        ],
+        "mean_iou": 0.06280401404294865,
+        "per_class_iou": {
+          "road": 0.0146505589996291,
+          "building": 0.04872645512559103,
+          "grass": 0.06549685736160818,
+          "tree": 0.2392228715842679,
+          "car": 0.008727341186595664,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area38_3072_512_3584_1024.png",
+        "ious": [
+          0.015175537938844847,
+          0.16070714990262777,
+          0.09103807046583116,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.0444867930512173,
+        "per_class_iou": {
+          "road": 0.015175537938844847,
+          "building": 0.16070714990262777,
+          "grass": 0.09103807046583116,
+          "tree": 0.0,
+          "car": 0.0,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area38_1024_512_1536_1024.png",
+        "ious": [
+          0.03552674413667181,
+          0.15117994615949376,
+          0.1744186046511628,
+          0.15859685687357766,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.08662035863681768,
+        "per_class_iou": {
+          "road": 0.03552674413667181,
+          "building": 0.15117994615949376,
+          "grass": 0.1744186046511628,
+          "tree": 0.15859685687357766,
+          "car": 0.0,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area38_3072_2038_3584_2550.png",
+        "ious": [
+          0.02445422515887563,
+          0.06843032215454613,
+          0.035082767286434904,
+          0.12634231533910648,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.042384938323160516,
+        "per_class_iou": {
+          "road": 0.02445422515887563,
+          "building": 0.06843032215454613,
+          "grass": 0.035082767286434904,
+          "tree": 0.12634231533910648,
+          "car": 0.0,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area29_1405_0_1917_512.png",
+        "ious": [
+          0.07602784765205048,
+          0.05497578722456421,
+          0.00797405228004051,
+          0.05810382938048868,
+          0.06713050018804062,
+          0.0
+        ],
+        "mean_iou": 0.044035336120864084,
+        "per_class_iou": {
+          "road": 0.07602784765205048,
+          "building": 0.05497578722456421,
+          "grass": 0.00797405228004051,
+          "tree": 0.05810382938048868,
+          "car": 0.06713050018804062,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area14_1407_1536_1919_2048.png",
+        "ious": [
+          0.054555537070925524,
+          0.07524720021851954,
+          0.1855841697928284,
+          0.10674708579356083,
+          0.01629119661906547,
+          NaN
+        ],
+        "mean_iou": 0.08768503789897995,
+        "per_class_iou": {
+          "road": 0.054555537070925524,
+          "building": 0.07524720021851954,
+          "grass": 0.1855841697928284,
+          "tree": 0.10674708579356083,
+          "car": 0.01629119661906547,
+          "clutter": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area2_0_0_512_512.png",
+        "ious": [
+          0.06093843463856807,
+          0.27391010052896786,
+          0.014878627540568026,
+          0.053233461032649095,
+          0.00016751929693439686,
+          0.0
+        ],
+        "mean_iou": 0.06718802383961457,
+        "per_class_iou": {
+          "road": 0.06093843463856807,
+          "building": 0.27391010052896786,
+          "grass": 0.014878627540568026,
+          "tree": 0.053233461032649095,
+          "car": 0.00016751929693439686,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area6_0_1024_512_1536.png",
+        "ious": [
+          0.05017252107019628,
+          0.10408790621300645,
+          0.0706983779272936,
+          0.11055501482104145,
+          0.023560580971755687,
+          0.0
+        ],
+        "mean_iou": 0.05984573350054891,
+        "per_class_iou": {
+          "road": 0.05017252107019628,
+          "building": 0.10408790621300645,
+          "grass": 0.0706983779272936,
+          "tree": 0.11055501482104145,
+          "car": 0.023560580971755687,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area2_1916_0_2428_512.png",
+        "ious": [
+          0.07417749690314725,
+          0.09497849704869077,
+          0.1180831684719801,
+          0.01914526690199671,
+          0.07481124784495571,
+          0.014783526927138331
+        ],
+        "mean_iou": 0.06599653401631815,
+        "per_class_iou": {
+          "road": 0.07417749690314725,
+          "building": 0.09497849704869077,
+          "grass": 0.1180831684719801,
+          "tree": 0.01914526690199671,
+          "car": 0.07481124784495571,
+          "clutter": 0.014783526927138331
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area14_512_0_1024_512.png",
+        "ious": [
+          0.057210656887067196,
+          0.11640423792853508,
+          0.1307748538011696,
+          0.29888700019646197,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.10054612480220564,
+        "per_class_iou": {
+          "road": 0.057210656887067196,
+          "building": 0.11640423792853508,
+          "grass": 0.1307748538011696,
+          "tree": 0.29888700019646197,
+          "car": 0.0,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area38_1024_2038_1536_2550.png",
+        "ious": [
+          0.09310423281993452,
+          0.2532167215533841,
+          0.08249575901393397,
+          0.0676106058861901,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.08273788654557378,
+        "per_class_iou": {
+          "road": 0.09310423281993452,
+          "building": 0.2532167215533841,
+          "grass": 0.08249575901393397,
+          "tree": 0.0676106058861901,
+          "car": 0.0,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area6_0_0_512_512.png",
+        "ious": [
+          0.08129780916020088,
+          0.0,
+          0.01795866454689984,
+          0.10771984317884808,
+          0.005167674546454096,
+          0.0
+        ],
+        "mean_iou": 0.03535733190540048,
+        "per_class_iou": {
+          "road": 0.08129780916020088,
+          "building": 0.0,
+          "grass": 0.01795866454689984,
+          "tree": 0.10771984317884808,
+          "car": 0.005167674546454096,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area29_1024_0_1536_512.png",
+        "ious": [
+          0.09961511223327278,
+          0.0,
+          0.14433604404805703,
+          0.14282286605482575,
+          0.011880614314691394,
+          0.0
+        ],
+        "mean_iou": 0.06644243944180782,
+        "per_class_iou": {
+          "road": 0.09961511223327278,
+          "building": 0.0,
+          "grass": 0.14433604404805703,
+          "tree": 0.14282286605482575,
+          "car": 0.011880614314691394,
+          "clutter": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "Vaihingen",
+    "prompt_type": "expanded",
+    "overall_mean_iou": 0.06876284853796477,
+    "per_class_avg_iou": {
+      "class_0": 0.06608491668306753,
+      "class_1": 0.10968567823866034,
+      "class_2": 0.10845625673159284,
+      "class_3": 0.09805596239637249,
+      "class_4": 0.015274156397066582,
+      "class_5": 0.0
+    },
+    "per_image_results": [
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area33_512_512_1024_1024.png",
+        "ious": [
+          0.13330762060874876,
+          5.670412919468795e-06,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.022218881836944704,
+        "per_class_iou": {
+          "road,paved,connected": 0.13330762060874876,
+          "building,yellow roof": 5.670412919468795e-06,
+          "grass,red lawn,yard": 0.0,
+          "tree,forests,red tree": 0.0,
+          "car,small vehicle": 0.0,
+          "clutter,background": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area24_512_2034_1024_2546.png",
+        "ious": [
+          0.055658018771261114,
+          0.039933275475355884,
+          0.3070194402407996,
+          0.13353745551762133,
+          0.0,
+          NaN
+        ],
+        "mean_iou": 0.10722963800100757,
+        "per_class_iou": {
+          "road,paved,connected": 0.055658018771261114,
+          "building,yellow roof": 0.039933275475355884,
+          "grass,red lawn,yard": 0.3070194402407996,
+          "tree,forests,red tree": 0.13353745551762133,
+          "car,small vehicle": 0.0,
+          "clutter,background": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area14_512_1536_1024_2048.png",
+        "ious": [
+          0.055931169458353455,
+          0.10617608409986859,
+          0.12286961382476422,
+          0.17138818207520498,
+          0.012912100614972026,
+          0.0
+        ],
+        "mean_iou": 0.0782128583455272,
+        "per_class_iou": {
+          "road,paved,connected": 0.055931169458353455,
+          "building,yellow roof": 0.10617608409986859,
+          "grass,red lawn,yard": 0.12286961382476422,
+          "tree,forests,red tree": 0.17138818207520498,
+          "car,small vehicle": 0.012912100614972026,
+          "clutter,background": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area22_1024_2034_1536_2546.png",
+        "ious": [
+          0.06923118955248347,
+          0.2476123718566547,
+          0.1427847660362721,
+          0.025757826735133344,
+          0.03636910581334136,
+          0.0
+        ],
+        "mean_iou": 0.08695920999898082,
+        "per_class_iou": {
+          "road,paved,connected": 0.06923118955248347,
+          "building,yellow roof": 0.2476123718566547,
+          "grass,red lawn,yard": 0.1427847660362721,
+          "tree,forests,red tree": 0.025757826735133344,
+          "car,small vehicle": 0.03636910581334136,
+          "clutter,background": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area38_1536_2038_2048_2550.png",
+        "ious": [
+          0.11930407101988172,
+          0.10875667942034012,
+          0.2053045069176223,
+          0.0766391663048198,
+          0.027374328396282066,
+          NaN
+        ],
+        "mean_iou": 0.10747575041178921,
+        "per_class_iou": {
+          "road,paved,connected": 0.11930407101988172,
+          "building,yellow roof": 0.10875667942034012,
+          "grass,red lawn,yard": 0.2053045069176223,
+          "tree,forests,red tree": 0.0766391663048198,
+          "car,small vehicle": 0.027374328396282066,
+          "clutter,background": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area10_1375_1536_1887_2048.png",
+        "ious": [
+          0.028113227021726788,
+          0.009948274354438383,
+          0.004021447721179625,
+          0.1765123678927232,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.036432552831678004,
+        "per_class_iou": {
+          "road,paved,connected": 0.028113227021726788,
+          "building,yellow roof": 0.009948274354438383,
+          "grass,red lawn,yard": 0.004021447721179625,
+          "tree,forests,red tree": 0.1765123678927232,
+          "car,small vehicle": 0.0,
+          "clutter,background": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area4_512_1536_1024_2048.png",
+        "ious": [
+          0.07137868279966554,
+          0.3508645880807485,
+          0.03792949907235622,
+          0.0,
+          0.021186813186813185,
+          0.0
+        ],
+        "mean_iou": 0.08022659718993057,
+        "per_class_iou": {
+          "road,paved,connected": 0.07137868279966554,
+          "building,yellow roof": 0.3508645880807485,
+          "grass,red lawn,yard": 0.03792949907235622,
+          "tree,forests,red tree": 0.0,
+          "car,small vehicle": 0.021186813186813185,
+          "clutter,background": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area16_512_1536_1024_2048.png",
+        "ious": [
+          0.022712700369913685,
+          0.05041590708792602,
+          0.09661909670768636,
+          0.23057769255863808,
+          0.007230278305125823,
+          0.0
+        ],
+        "mean_iou": 0.067925945838215,
+        "per_class_iou": {
+          "road,paved,connected": 0.022712700369913685,
+          "building,yellow roof": 0.05041590708792602,
+          "grass,red lawn,yard": 0.09661909670768636,
+          "tree,forests,red tree": 0.23057769255863808,
+          "car,small vehicle": 0.007230278305125823,
+          "clutter,background": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area38_3072_512_3584_1024.png",
+        "ious": [
+          0.039258024780812986,
+          0.11574457069214882,
+          0.08382104949905764,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.039803940828669906,
+        "per_class_iou": {
+          "road,paved,connected": 0.039258024780812986,
+          "building,yellow roof": 0.11574457069214882,
+          "grass,red lawn,yard": 0.08382104949905764,
+          "tree,forests,red tree": 0.0,
+          "car,small vehicle": 0.0,
+          "clutter,background": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area38_1024_512_1536_1024.png",
+        "ious": [
+          0.03753232564893308,
+          0.15330178594335722,
+          0.202768129670561,
+          0.1664754270569032,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.09334627805329242,
+        "per_class_iou": {
+          "road,paved,connected": 0.03753232564893308,
+          "building,yellow roof": 0.15330178594335722,
+          "grass,red lawn,yard": 0.202768129670561,
+          "tree,forests,red tree": 0.1664754270569032,
+          "car,small vehicle": 0.0,
+          "clutter,background": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area38_3072_2038_3584_2550.png",
+        "ious": [
+          0.020145263556354688,
+          0.047958752199473494,
+          0.02868761057999673,
+          0.11259335342197913,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.03489749662630067,
+        "per_class_iou": {
+          "road,paved,connected": 0.020145263556354688,
+          "building,yellow roof": 0.047958752199473494,
+          "grass,red lawn,yard": 0.02868761057999673,
+          "tree,forests,red tree": 0.11259335342197913,
+          "car,small vehicle": 0.0,
+          "clutter,background": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area29_1405_0_1917_512.png",
+        "ious": [
+          0.0757899242570562,
+          0.05450225236374437,
+          0.007982956003901637,
+          0.05946126659661859,
+          0.06586547419414943,
+          0.0
+        ],
+        "mean_iou": 0.04393364556924504,
+        "per_class_iou": {
+          "road,paved,connected": 0.0757899242570562,
+          "building,yellow roof": 0.05450225236374437,
+          "grass,red lawn,yard": 0.007982956003901637,
+          "tree,forests,red tree": 0.05946126659661859,
+          "car,small vehicle": 0.06586547419414943,
+          "clutter,background": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area14_1407_1536_1919_2048.png",
+        "ious": [
+          0.05217134416543574,
+          0.07272808998865028,
+          0.22724687144482367,
+          0.060082538778995304,
+          0.016256291660998505,
+          NaN
+        ],
+        "mean_iou": 0.08569702720778069,
+        "per_class_iou": {
+          "road,paved,connected": 0.05217134416543574,
+          "building,yellow roof": 0.07272808998865028,
+          "grass,red lawn,yard": 0.22724687144482367,
+          "tree,forests,red tree": 0.060082538778995304,
+          "car,small vehicle": 0.016256291660998505,
+          "clutter,background": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area2_0_0_512_512.png",
+        "ious": [
+          0.06092844443418227,
+          0.274711915917437,
+          0.020644709793115515,
+          0.05241395375924524,
+          0.00016735539849895082,
+          0.0
+        ],
+        "mean_iou": 0.06814439655041316,
+        "per_class_iou": {
+          "road,paved,connected": 0.06092844443418227,
+          "building,yellow roof": 0.274711915917437,
+          "grass,red lawn,yard": 0.020644709793115515,
+          "tree,forests,red tree": 0.05241395375924524,
+          "car,small vehicle": 0.00016735539849895082,
+          "clutter,background": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area6_0_1024_512_1536.png",
+        "ious": [
+          0.05102553877628864,
+          0.08308894403314124,
+          0.10439951396262767,
+          0.11453437460907483,
+          0.023330182734719596,
+          0.0
+        ],
+        "mean_iou": 0.06272975901930866,
+        "per_class_iou": {
+          "road,paved,connected": 0.05102553877628864,
+          "building,yellow roof": 0.08308894403314124,
+          "grass,red lawn,yard": 0.10439951396262767,
+          "tree,forests,red tree": 0.11453437460907483,
+          "car,small vehicle": 0.023330182734719596,
+          "clutter,background": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area2_1916_0_2428_512.png",
+        "ious": [
+          0.08012172302341845,
+          0.09138776151232858,
+          0.12776456776735348,
+          0.017652994926664733,
+          0.07388704952004382,
+          0.0
+        ],
+        "mean_iou": 0.06513568279163486,
+        "per_class_iou": {
+          "road,paved,connected": 0.08012172302341845,
+          "building,yellow roof": 0.09138776151232858,
+          "grass,red lawn,yard": 0.12776456776735348,
+          "tree,forests,red tree": 0.017652994926664733,
+          "car,small vehicle": 0.07388704952004382,
+          "clutter,background": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area14_512_0_1024_512.png",
+        "ious": [
+          0.07169957413859852,
+          0.12063138982760833,
+          0.15866633928754117,
+          0.2585286399420867,
+          0.0038558592552413746,
+          0.0
+        ],
+        "mean_iou": 0.10223030040851266,
+        "per_class_iou": {
+          "road,paved,connected": 0.07169957413859852,
+          "building,yellow roof": 0.12063138982760833,
+          "grass,red lawn,yard": 0.15866633928754117,
+          "tree,forests,red tree": 0.2585286399420867,
+          "car,small vehicle": 0.0038558592552413746,
+          "clutter,background": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area38_1024_2038_1536_2550.png",
+        "ious": [
+          0.09903053449130603,
+          0.26594525150706594,
+          0.09343143587295347,
+          0.06246832361095928,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.08681259091371413,
+        "per_class_iou": {
+          "road,paved,connected": 0.09903053449130603,
+          "building,yellow roof": 0.26594525150706594,
+          "grass,red lawn,yard": 0.09343143587295347,
+          "tree,forests,red tree": 0.06246832361095928,
+          "car,small vehicle": 0.0,
+          "clutter,background": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area6_0_0_512_512.png",
+        "ious": [
+          0.07738668229188465,
+          0.0,
+          0.027031324534902212,
+          0.10799980332382732,
+          0.005167674546454096,
+          0.0
+        ],
+        "mean_iou": 0.03626424744951138,
+        "per_class_iou": {
+          "road,paved,connected": 0.07738668229188465,
+          "building,yellow roof": 0.0,
+          "grass,red lawn,yard": 0.027031324534902212,
+          "tree,forests,red tree": 0.10799980332382732,
+          "car,small vehicle": 0.005167674546454096,
+          "clutter,background": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Vaihingen/area29_1024_0_1536_512.png",
+        "ious": [
+          0.10097227449504453,
+          0.0,
+          0.1701322556943424,
+          0.13449588081695443,
+          0.011880614314691394,
+          0.0
+        ],
+        "mean_iou": 0.0695801708868388,
+        "per_class_iou": {
+          "road,paved,connected": 0.10097227449504453,
+          "building,yellow roof": 0.0,
+          "grass,red lawn,yard": 0.1701322556943424,
+          "tree,forests,red tree": 0.13449588081695443,
+          "car,small vehicle": 0.011880614314691394,
+          "clutter,background": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "Potsdam",
+    "prompt_type": "original",
+    "overall_mean_iou": 0.02327990073384028,
+    "per_class_avg_iou": {
+      "class_0": 0.07462552300724232,
+      "class_1": 0.01425064667327908,
+      "class_2": 0.0003631781038592789,
+      "class_3": 0.028543941408494304,
+      "class_4": 0.018938107726428167,
+      "class_5": 0.0
+    },
+    "per_image_results": [
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/4_14_2560_4096_3072_4608.png",
+        "ious": [
+          0.07045561296383279,
+          0.0,
+          9.922800611244517e-06,
+          0.07335842011609929,
+          0.00020663505150378658,
+          0.0
+        ],
+        "mean_iou": 0.024005098488674517,
+        "per_class_iou": {
+          "road": 0.07045561296383279,
+          "building": 0.0,
+          "grass": 9.922800611244517e-06,
+          "tree": 0.07335842011609929,
+          "car": 0.00020663505150378658,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/3_14_1024_2048_1536_2560.png",
+        "ious": [
+          0.07448100550769665,
+          0.031710123447159545,
+          0.0008858925026236047,
+          0.001433870737623056,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.018085148699183807,
+        "per_class_iou": {
+          "road": 0.07448100550769665,
+          "building": 0.031710123447159545,
+          "grass": 0.0008858925026236047,
+          "tree": 0.001433870737623056,
+          "car": 0.0,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/3_14_4096_4096_4608_4608.png",
+        "ious": [
+          0.06646890504817159,
+          0.01825430600040316,
+          0.0,
+          0.00027729939577921133,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.01416675174072566,
+        "per_class_iou": {
+          "road": 0.06646890504817159,
+          "building": 0.01825430600040316,
+          "grass": 0.0,
+          "tree": 0.00027729939577921133,
+          "car": 0.0,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/4_13_2048_3072_2560_3584.png",
+        "ious": [
+          0.06996747557594053,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.011661245929323423,
+        "per_class_iou": {
+          "road": 0.06996747557594053,
+          "building": 0.0,
+          "grass": 0.0,
+          "tree": 0.0,
+          "car": 0.0,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/2_13_2048_0_2560_512.png",
+        "ious": [
+          0.08293646068976465,
+          0.001923967648840275,
+          0.0,
+          0.0043454644215100485,
+          0.0,
+          NaN
+        ],
+        "mean_iou": 0.017841178552022992,
+        "per_class_iou": {
+          "road": 0.08293646068976465,
+          "building": 0.001923967648840275,
+          "grass": 0.0,
+          "tree": 0.0043454644215100485,
+          "car": 0.0,
+          "clutter": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/2_14_0_2048_512_2560.png",
+        "ious": [
+          0.11179800871998438,
+          0.006867309779576601,
+          0.0,
+          0.013261764179638575,
+          0.011469154123383507,
+          NaN
+        ],
+        "mean_iou": 0.028679247360516615,
+        "per_class_iou": {
+          "road": 0.11179800871998438,
+          "building": 0.006867309779576601,
+          "grass": 0.0,
+          "tree": 0.013261764179638575,
+          "car": 0.011469154123383507,
+          "clutter": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/5_13_3584_3072_4096_3584.png",
+        "ious": [
+          0.08438737615282364,
+          0.0,
+          0.0,
+          0.20794719154175886,
+          0.007590170432025366,
+          0.0
+        ],
+        "mean_iou": 0.04998745635443464,
+        "per_class_iou": {
+          "road": 0.08438737615282364,
+          "building": 0.0,
+          "grass": 0.0,
+          "tree": 0.20794719154175886,
+          "car": 0.007590170432025366,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/5_14_1536_1536_2048_2048.png",
+        "ious": [
+          0.12809250770631359,
+          0.0,
+          9.367769253107757e-06,
+          0.0,
+          0.16475264208656154,
+          0.0
+        ],
+        "mean_iou": 0.048809086260354705,
+        "per_class_iou": {
+          "road": 0.12809250770631359,
+          "building": 0.0,
+          "grass": 9.367769253107757e-06,
+          "tree": 0.0,
+          "car": 0.16475264208656154,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/3_14_5120_4608_5632_5120.png",
+        "ious": [
+          0.075804362984361,
+          0.0,
+          0.0,
+          0.0,
+          0.0006855525332271833,
+          0.0
+        ],
+        "mean_iou": 0.012748319252931363,
+        "per_class_iou": {
+          "road": 0.075804362984361,
+          "building": 0.0,
+          "grass": 0.0,
+          "tree": 0.0,
+          "car": 0.0006855525332271833,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/4_15_0_1536_512_2048.png",
+        "ious": [
+          0.06438474363099242,
+          0.09515039088379489,
+          0.0,
+          0.0,
+          0.03458982459962959,
+          0.0
+        ],
+        "mean_iou": 0.032354159852402815,
+        "per_class_iou": {
+          "road": 0.06438474363099242,
+          "building": 0.09515039088379489,
+          "grass": 0.0,
+          "tree": 0.0,
+          "car": 0.03458982459962959,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/2_13_1024_4608_1536_5120.png",
+        "ious": [
+          0.05585468283910628,
+          0.0,
+          0.0003326749142322487,
+          0.02281148246566114,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.013166473369833278,
+        "per_class_iou": {
+          "road": 0.05585468283910628,
+          "building": 0.0,
+          "grass": 0.0003326749142322487,
+          "tree": 0.02281148246566114,
+          "car": 0.0,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/3_14_512_1536_1024_2048.png",
+        "ious": [
+          0.09423894289441569,
+          0.0002729827378562826,
+          0.0,
+          0.14321067604135346,
+          0.05467138679390488,
+          0.0
+        ],
+        "mean_iou": 0.04873233141125505,
+        "per_class_iou": {
+          "road": 0.09423894289441569,
+          "building": 0.0002729827378562826,
+          "grass": 0.0,
+          "tree": 0.14321067604135346,
+          "car": 0.05467138679390488,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/3_14_4608_3072_5120_3584.png",
+        "ious": [
+          0.04817933350492089,
+          0.007594534477279949,
+          8.550443340487204e-06,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.009297069737590221,
+        "per_class_iou": {
+          "road": 0.04817933350492089,
+          "building": 0.007594534477279949,
+          "grass": 8.550443340487204e-06,
+          "tree": 0.0,
+          "car": 0.0,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/2_13_512_2560_1024_3072.png",
+        "ious": [
+          0.009614854812937352,
+          0.009887916474742822,
+          2.8178142215083758e-05,
+          0.001783877603497043,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.00355247117223205,
+        "per_class_iou": {
+          "road": 0.009614854812937352,
+          "building": 0.009887916474742822,
+          "grass": 2.8178142215083758e-05,
+          "tree": 0.001783877603497043,
+          "car": 0.0,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/5_13_1536_3072_2048_3584.png",
+        "ious": [
+          0.06501450933045265,
+          0.0,
+          NaN,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.01300290186609053,
+        "per_class_iou": {
+          "road": 0.06501450933045265,
+          "building": 0.0,
+          "grass": null,
+          "tree": 0.0,
+          "car": 0.0,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/3_13_2560_1536_3072_2048.png",
+        "ious": [
+          0.04360133884062099,
+          0.10144839968235335,
+          0.004095841145913381,
+          0.06206642929976765,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.0352020014947759,
+        "per_class_iou": {
+          "road": 0.04360133884062099,
+          "building": 0.10144839968235335,
+          "grass": 0.004095841145913381,
+          "tree": 0.06206642929976765,
+          "car": 0.0,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/2_13_0_2560_512_3072.png",
+        "ious": [
+          0.05724580038369753,
+          0.0005256819528606657,
+          0.0011946241911398707,
+          0.0,
+          0.01642610372819567,
+          0.0
+        ],
+        "mean_iou": 0.012565368375982289,
+        "per_class_iou": {
+          "road": 0.05724580038369753,
+          "building": 0.0005256819528606657,
+          "grass": 0.0011946241911398707,
+          "tree": 0.0,
+          "car": 0.01642610372819567,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/4_13_1536_1024_2048_1536.png",
+        "ious": [
+          0.13801516999946958,
+          0.00011610711186614683,
+          0.0,
+          0.011880440194344774,
+          0.017615668572958706,
+          0.0
+        ],
+        "mean_iou": 0.027937897646439874,
+        "per_class_iou": {
+          "road": 0.13801516999946958,
+          "building": 0.00011610711186614683,
+          "grass": 0.0,
+          "tree": 0.011880440194344774,
+          "car": 0.017615668572958706,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/3_13_3072_3584_3584_4096.png",
+        "ious": [
+          0.09753438212953885,
+          0.010078869600955047,
+          0.0,
+          0.021514471134623073,
+          0.06367725981269073,
+          0.0
+        ],
+        "mean_iou": 0.03213416377963462,
+        "per_class_iou": {
+          "road": 0.09753438212953885,
+          "building": 0.010078869600955047,
+          "grass": 0.0,
+          "tree": 0.021514471134623073,
+          "car": 0.06367725981269073,
+          "clutter": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/5_13_1536_1536_2048_2048.png",
+        "ious": [
+          0.054434986429805085,
+          0.001182343667892801,
+          0.00033533206399727187,
+          0.006987441038229849,
+          0.007077756794482306,
+          0.0
+        ],
+        "mean_iou": 0.011669643332401218,
+        "per_class_iou": {
+          "road": 0.054434986429805085,
+          "building": 0.001182343667892801,
+          "grass": 0.00033533206399727187,
+          "tree": 0.006987441038229849,
+          "car": 0.007077756794482306,
+          "clutter": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "Potsdam",
+    "prompt_type": "expanded",
+    "overall_mean_iou": 0.02167570099352002,
+    "per_class_avg_iou": {
+      "class_0": 0.07702864441468946,
+      "class_1": 0.008586310233937128,
+      "class_2": 0.00032504816756627594,
+      "class_3": 0.021990378792367437,
+      "class_4": 0.018934302724314133,
+      "class_5": 0.0
+    },
+    "per_image_results": [
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/4_14_2560_4096_3072_4608.png",
+        "ious": [
+          0.05050694705219677,
+          0.0,
+          9.444475926030864e-06,
+          0.0733806819839746,
+          0.00020663611896041368,
+          0.0
+        ],
+        "mean_iou": 0.0206839516051763,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.05050694705219677,
+          "building": 0.0,
+          "grass,grey grassland,lawn": 9.444475926030864e-06,
+          "tree": 0.0733806819839746,
+          "car": 0.00020663611896041368,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/3_14_1024_2048_1536_2560.png",
+        "ious": [
+          0.08644924718039891,
+          0.027266330479652868,
+          0.0008882248712073937,
+          0.001049033390661462,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.01927547265365344,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.08644924718039891,
+          "building": 0.027266330479652868,
+          "grass,grey grassland,lawn": 0.0008882248712073937,
+          "tree": 0.001049033390661462,
+          "car": 0.0,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/3_14_4096_4096_4608_4608.png",
+        "ious": [
+          0.06528304199017866,
+          0.018254510431948753,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.013922925403687903,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.06528304199017866,
+          "building": 0.018254510431948753,
+          "grass,grey grassland,lawn": 0.0,
+          "tree": 0.0,
+          "car": 0.0,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/4_13_2048_3072_2560_3584.png",
+        "ious": [
+          0.07114677365429622,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.01185779560904937,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.07114677365429622,
+          "building": 0.0,
+          "grass,grey grassland,lawn": 0.0,
+          "tree": 0.0,
+          "car": 0.0,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/2_13_2048_0_2560_512.png",
+        "ious": [
+          0.10153919818049419,
+          0.0005892962374328113,
+          0.0,
+          0.004413895904931473,
+          0.0,
+          NaN
+        ],
+        "mean_iou": 0.021308478064571694,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.10153919818049419,
+          "building": 0.0005892962374328113,
+          "grass,grey grassland,lawn": 0.0,
+          "tree": 0.004413895904931473,
+          "car": 0.0,
+          "clutter,mixed,scattered": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/2_14_0_2048_512_2560.png",
+        "ious": [
+          0.12220275142506093,
+          0.004781087239583333,
+          0.0,
+          0.013128300937735782,
+          0.01146740284561478,
+          NaN
+        ],
+        "mean_iou": 0.030315908489598968,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.12220275142506093,
+          "building": 0.004781087239583333,
+          "grass,grey grassland,lawn": 0.0,
+          "tree": 0.013128300937735782,
+          "car": 0.01146740284561478,
+          "clutter,mixed,scattered": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/5_13_3584_3072_4096_3584.png",
+        "ious": [
+          0.0017342830597708268,
+          0.0,
+          0.0,
+          0.1887669972338786,
+          0.00758026159334126,
+          0.0
+        ],
+        "mean_iou": 0.03301359031449845,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.0017342830597708268,
+          "building": 0.0,
+          "grass,grey grassland,lawn": 0.0,
+          "tree": 0.1887669972338786,
+          "car": 0.00758026159334126,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/5_14_1536_1536_2048_2048.png",
+        "ious": [
+          0.1328734756097561,
+          0.0,
+          9.937098168592807e-06,
+          0.0,
+          0.16475565975529344,
+          0.0
+        ],
+        "mean_iou": 0.04960651207720302,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.1328734756097561,
+          "building": 0.0,
+          "grass,grey grassland,lawn": 9.937098168592807e-06,
+          "tree": 0.0,
+          "car": 0.16475565975529344,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/3_14_5120_4608_5632_5120.png",
+        "ious": [
+          0.09274439213514261,
+          0.0,
+          0.0,
+          0.0,
+          0.0006634868445302882,
+          0.0
+        ],
+        "mean_iou": 0.015567979829945483,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.09274439213514261,
+          "building": 0.0,
+          "grass,grey grassland,lawn": 0.0,
+          "tree": 0.0,
+          "car": 0.0006634868445302882,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/4_15_0_1536_512_2048.png",
+        "ious": [
+          0.06626908604884285,
+          0.06628954647739503,
+          0.0,
+          0.0,
+          0.0345954780713702,
+          0.0
+        ],
+        "mean_iou": 0.027859018432934684,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.06626908604884285,
+          "building": 0.06628954647739503,
+          "grass,grey grassland,lawn": 0.0,
+          "tree": 0.0,
+          "car": 0.0345954780713702,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/2_13_1024_4608_1536_5120.png",
+        "ious": [
+          0.06294073869757323,
+          0.0,
+          0.00035651418257982577,
+          0.024242785832189806,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.014590006452057144,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.06294073869757323,
+          "building": 0.0,
+          "grass,grey grassland,lawn": 0.00035651418257982577,
+          "tree": 0.024242785832189806,
+          "car": 0.0,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/3_14_512_1536_1024_2048.png",
+        "ious": [
+          0.09179281621438322,
+          0.00015313812252661782,
+          0.0,
+          0.07776879754711413,
+          0.054617666074855555,
+          0.0
+        ],
+        "mean_iou": 0.03738873632647992,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.09179281621438322,
+          "building": 0.00015313812252661782,
+          "grass,grey grassland,lawn": 0.0,
+          "tree": 0.07776879754711413,
+          "car": 0.054617666074855555,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/3_14_4608_3072_5120_3584.png",
+        "ious": [
+          0.05031802630944924,
+          0.0001981805744679491,
+          1.7100886680974407e-05,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.008422217961766362,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.05031802630944924,
+          "building": 0.0001981805744679491,
+          "grass,grey grassland,lawn": 1.7100886680974407e-05,
+          "tree": 0.0,
+          "car": 0.0,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/2_13_512_2560_1024_3072.png",
+        "ious": [
+          0.010303597994379856,
+          0.001640195162462369,
+          6.035787577420583e-05,
+          0.0014969577954479607,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.0022501848046773986,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.010303597994379856,
+          "building": 0.001640195162462369,
+          "grass,grey grassland,lawn": 6.035787577420583e-05,
+          "tree": 0.0014969577954479607,
+          "car": 0.0,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/5_13_1536_3072_2048_3584.png",
+        "ious": [
+          0.06245547089154822,
+          0.0,
+          NaN,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.012491094178309644,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.06245547089154822,
+          "building": 0.0,
+          "grass,grey grassland,lawn": null,
+          "tree": 0.0,
+          "car": 0.0,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/3_13_2560_1536_3072_2048.png",
+        "ious": [
+          0.11309772597099026,
+          0.041399968776832406,
+          0.00391827980642323,
+          0.025156638915114583,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.030595435578226745,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.11309772597099026,
+          "building": 0.041399968776832406,
+          "grass,grey grassland,lawn": 0.00391827980642323,
+          "tree": 0.025156638915114583,
+          "car": 0.0,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/2_13_0_2560_512_3072.png",
+        "ious": [
+          0.09358335449466734,
+          0.0,
+          0.00040905372238887375,
+          0.0,
+          0.01642610372819567,
+          0.0
+        ],
+        "mean_iou": 0.01840308532420865,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.09358335449466734,
+          "building": 0.0,
+          "grass,grey grassland,lawn": 0.00040905372238887375,
+          "tree": 0.0,
+          "car": 0.01642610372819567,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/4_13_1536_1024_2048_1536.png",
+        "ious": [
+          0.10859821796733538,
+          0.00010389038952784873,
+          0.0,
+          0.001632289657219172,
+          0.017615668572958706,
+          0.0
+        ],
+        "mean_iou": 0.021325011097840185,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.10859821796733538,
+          "building": 0.00010389038952784873,
+          "grass,grey grassland,lawn": 0.0,
+          "tree": 0.001632289657219172,
+          "car": 0.017615668572958706,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/3_13_3072_3584_3584_4096.png",
+        "ious": [
+          0.09642809719824724,
+          0.010079264115862609,
+          0.0,
+          0.022860041563711932,
+          0.06367725981269073,
+          0.0
+        ],
+        "mean_iou": 0.03217411044841875,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.09642809719824724,
+          "building": 0.010079264115862609,
+          "grass,grey grassland,lawn": 0.0,
+          "tree": 0.022860041563711932,
+          "car": 0.06367725981269073,
+          "clutter,mixed,scattered": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/Potsdam/5_13_1536_1536_2048_2048.png",
+        "ious": [
+          0.06030564621907696,
+          0.0009707966710499607,
+          0.0005070022646101153,
+          0.005911155085369257,
+          0.007080431068471547,
+          0.0
+        ],
+        "mean_iou": 0.012462505218096309,
+        "per_class_iou": {
+          "road,path,sidewalk": 0.06030564621907696,
+          "building": 0.0009707966710499607,
+          "grass,grey grassland,lawn": 0.0005070022646101153,
+          "tree": 0.005911155085369257,
+          "car": 0.007080431068471547,
+          "clutter,mixed,scattered": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "LoveDA",
+    "prompt_type": "original",
+    "overall_mean_iou": 0.018413972083501106,
+    "per_class_avg_iou": {
+      "class_1": 0.06368214866295585,
+      "class_2": 0.0016626176861797323,
+      "class_3": 0.0,
+      "class_4": 0.000323679137229408,
+      "class_5": 0.0018240303458440083,
+      "class_6": 0.038533295736427116,
+      "class_0": 0.05250481695568401
+    },
+    "per_image_results": [
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2864.png",
+        "ious": [
+          NaN,
+          0.13660715460995398,
+          0.005049916805324459,
+          0.0,
+          5.9048309953014414e-05,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.023619353287538575,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.13660715460995398,
+          "road": 0.005049916805324459,
+          "water": 0.0,
+          "barren,bareland,soil": 5.9048309953014414e-05,
+          "forest,tree": 0.0,
+          "agricultural": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2581.png",
+        "ious": [
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.3367994976765333
+        ],
+        "mean_iou": 0.056133249612755544,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.0,
+          "road": 0.0,
+          "water": 0.0,
+          "barren,bareland,soil": 0.0,
+          "forest,tree": 0.0,
+          "agricultural": 0.3367994976765333
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2699.png",
+        "ious": [
+          NaN,
+          0.0828871736841809,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.013814528947363484,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.0828871736841809,
+          "road": 0.0,
+          "water": 0.0,
+          "barren,bareland,soil": 0.0,
+          "forest,tree": 0.0,
+          "agricultural": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2981.png",
+        "ious": [
+          NaN,
+          0.018918740598031194,
+          0.0,
+          NaN,
+          0.0,
+          0.0,
+          0.0770487390782227
+        ],
+        "mean_iou": 0.019193495935250778,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.018918740598031194,
+          "road": 0.0,
+          "water": null,
+          "barren,bareland,soil": 0.0,
+          "forest,tree": 0.0,
+          "agricultural": 0.0770487390782227
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2634.png",
+        "ious": [
+          NaN,
+          0.05035955123232082,
+          0.001367445556263917,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.00862116613143079,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.05035955123232082,
+          "road": 0.001367445556263917,
+          "water": 0.0,
+          "barren,bareland,soil": 0.0,
+          "forest,tree": 0.0,
+          "agricultural": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2583.png",
+        "ious": [
+          NaN,
+          0.02595598905190181,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.004325998175316969,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.02595598905190181,
+          "road": 0.0,
+          "water": 0.0,
+          "barren,bareland,soil": 0.0,
+          "forest,tree": 0.0,
+          "agricultural": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2636.png",
+        "ious": [
+          0.0,
+          0.2609945480097039,
+          0.0008690775362722139,
+          0.0,
+          0.0,
+          0.0,
+          NaN
+        ],
+        "mean_iou": 0.04364393759099602,
+        "per_class_iou": {
+          "background": 0.0,
+          "building,house": 0.2609945480097039,
+          "road": 0.0008690775362722139,
+          "water": 0.0,
+          "barren,bareland,soil": 0.0,
+          "forest,tree": 0.0,
+          "agricultural": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/3355.png",
+        "ious": [
+          NaN,
+          0.04796848684648344,
+          0.0012767315671879987,
+          0.0,
+          0.0,
+          0.0,
+          0.06155626308923422
+        ],
+        "mean_iou": 0.01846691358381761,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.04796848684648344,
+          "road": 0.0012767315671879987,
+          "water": 0.0,
+          "barren,bareland,soil": 0.0,
+          "forest,tree": 0.0,
+          "agricultural": 0.06155626308923422
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2579.png",
+        "ious": [
+          0.0,
+          0.07313911484512854,
+          0.003257989415030098,
+          0.0,
+          0.0,
+          0.0,
+          0.0010350482457626897
+        ],
+        "mean_iou": 0.011061736072274475,
+        "per_class_iou": {
+          "background": 0.0,
+          "building,house": 0.07313911484512854,
+          "road": 0.003257989415030098,
+          "water": 0.0,
+          "barren,bareland,soil": 0.0,
+          "forest,tree": 0.0,
+          "agricultural": 0.0010350482457626897
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2633.png",
+        "ious": [
+          NaN,
+          0.05104133826358105,
+          0.0003051768306311573,
+          0.0,
+          0.0,
+          0.0,
+          0.13246499816942636
+        ],
+        "mean_iou": 0.030635252210606426,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.05104133826358105,
+          "road": 0.0003051768306311573,
+          "water": 0.0,
+          "barren,bareland,soil": 0.0,
+          "forest,tree": 0.0,
+          "agricultural": 0.13246499816942636
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2797.png",
+        "ious": [
+          NaN,
+          0.017560817477763554,
+          0.00010792660990526442,
+          0.0,
+          0.0,
+          0.0,
+          0.023507782128471783
+        ],
+        "mean_iou": 0.006862754369356766,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.017560817477763554,
+          "road": 0.00010792660990526442,
+          "water": 0.0,
+          "barren,bareland,soil": 0.0,
+          "forest,tree": 0.0,
+          "agricultural": 0.023507782128471783
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2569.png",
+        "ious": [
+          NaN,
+          0.1799995279263737,
+          0.01761525767525011,
+          0.0,
+          0.0,
+          0.00021479113096735787,
+          0.0
+        ],
+        "mean_iou": 0.032971596122098525,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.1799995279263737,
+          "road": 0.01761525767525011,
+          "water": 0.0,
+          "barren,bareland,soil": 0.0,
+          "forest,tree": 0.00021479113096735787,
+          "agricultural": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2996.png",
+        "ious": [
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          0.0014135423859620618,
+          0.0,
+          0.022865910015157677
+        ],
+        "mean_iou": 0.004046575400186623,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.0,
+          "road": 0.0,
+          "water": 0.0,
+          "barren,bareland,soil": 0.0014135423859620618,
+          "forest,tree": 0.0,
+          "agricultural": 0.022865910015157677
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2799.png",
+        "ious": [
+          NaN,
+          0.01012475641639101,
+          0.0007490372668070744,
+          NaN,
+          0.0,
+          0.0,
+          0.010349667908020749
+        ],
+        "mean_iou": 0.004244692318243767,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.01012475641639101,
+          "road": 0.0007490372668070744,
+          "water": null,
+          "barren,bareland,soil": 0.0,
+          "forest,tree": 0.0,
+          "agricultural": 0.010349667908020749
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/3014.png",
+        "ious": [
+          0.157514450867052,
+          0.10179314935058865,
+          0.00035139431901145613,
+          0.0,
+          0.0023741743477407023,
+          0.03334155176664707,
+          0.0
+        ],
+        "mean_iou": 0.04219638866443426,
+        "per_class_iou": {
+          "background": 0.157514450867052,
+          "building,house": 0.10179314935058865,
+          "road": 0.00035139431901145613,
+          "water": 0.0,
+          "barren,bareland,soil": 0.0023741743477407023,
+          "forest,tree": 0.03334155176664707,
+          "agricultural": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2774.png",
+        "ious": [
+          NaN,
+          0.013758456751155035,
+          0.0,
+          0.0,
+          5.902072807970159e-05,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.0023029129132057895,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.013758456751155035,
+          "road": 0.0,
+          "water": 0.0,
+          "barren,bareland,soil": 5.902072807970159e-05,
+          "forest,tree": 0.0,
+          "agricultural": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2522.png",
+        "ious": [
+          NaN,
+          0.034867052817930254,
+          0.0,
+          0.0,
+          0.0025677969728526797,
+          0.0029242640192657394,
+          0.0
+        ],
+        "mean_iou": 0.006726518968341445,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.034867052817930254,
+          "road": 0.0,
+          "water": 0.0,
+          "barren,bareland,soil": 0.0025677969728526797,
+          "forest,tree": 0.0029242640192657394,
+          "agricultural": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2719.png",
+        "ious": [
+          NaN,
+          0.12573357924520387,
+          0.0021152288614721677,
+          0.0,
+          0.0,
+          0.0,
+          0.04250622858922454
+        ],
+        "mean_iou": 0.02839250611598343,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.12573357924520387,
+          "road": 0.0021152288614721677,
+          "water": 0.0,
+          "barren,bareland,soil": 0.0,
+          "forest,tree": 0.0,
+          "agricultural": 0.04250622858922454
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2846.png",
+        "ious": [
+          NaN,
+          0.0002605160641475369,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.015800501024823502
+        ],
+        "mean_iou": 0.002676836181495173,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.0002605160641475369,
+          "road": 0.0,
+          "water": 0.0,
+          "barren,bareland,soil": 0.0,
+          "forest,tree": 0.0,
+          "agricultural": 0.015800501024823502
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2789.png",
+        "ious": [
+          NaN,
+          0.04167302006827789,
+          0.00018717128043872948,
+          0.0,
+          0.0,
+          0.0,
+          0.008197983067237671
+        ],
+        "mean_iou": 0.008343029069325715,
+        "per_class_iou": {
+          "background": null,
+          "building,house": 0.04167302006827789,
+          "road": 0.00018717128043872948,
+          "water": 0.0,
+          "barren,bareland,soil": 0.0,
+          "forest,tree": 0.0,
+          "agricultural": 0.008197983067237671
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "LoveDA",
+    "prompt_type": "expanded",
+    "overall_mean_iou": 0.017551108852254343,
+    "per_class_avg_iou": {
+      "class_1": 0.057629568000197876,
+      "class_2": 0.002371713898287473,
+      "class_3": 0.0,
+      "class_4": 0.0003288679896601307,
+      "class_5": 0.001828331782594871,
+      "class_6": 0.0387000404261235,
+      "class_0": 0.05224946026882094
+    },
+    "per_image_results": [
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2864.png",
+        "ious": [
+          NaN,
+          0.1203469229919346,
+          0.0053175345598170665,
+          0.0,
+          5.1252013471957826e-05,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.0209526182608706,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.1203469229919346,
+          "road,highway": 0.0053175345598170665,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 5.1252013471957826e-05,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2581.png",
+        "ious": [
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.3367994976765333
+        ],
+        "mean_iou": 0.056133249612755544,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.0,
+          "road,highway": 0.0,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 0.0,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": 0.3367994976765333
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2699.png",
+        "ious": [
+          NaN,
+          0.07372290387970706,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.012287150646617844,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.07372290387970706,
+          "road,highway": 0.0,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 0.0,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2981.png",
+        "ious": [
+          NaN,
+          0.018755484590362956,
+          0.0,
+          NaN,
+          0.0,
+          0.0,
+          0.07703725478830437
+        ],
+        "mean_iou": 0.019158547875733463,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.018755484590362956,
+          "road,highway": 0.0,
+          "water,water pond": null,
+          "barren,bareland,soil": 0.0,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": 0.07703725478830437
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2634.png",
+        "ious": [
+          NaN,
+          0.028916245137209154,
+          0.0014042997440848492,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.005053424146882334,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.028916245137209154,
+          "road,highway": 0.0014042997440848492,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 0.0,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2583.png",
+        "ious": [
+          NaN,
+          0.02595598905190181,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.004325998175316969,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.02595598905190181,
+          "road,highway": 0.0,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 0.0,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2636.png",
+        "ious": [
+          0.0,
+          0.26068565090584145,
+          0.0008615805121523172,
+          0.0,
+          0.0,
+          0.0,
+          NaN
+        ],
+        "mean_iou": 0.04359120523633229,
+        "per_class_iou": {
+          "background": 0.0,
+          "building": 0.26068565090584145,
+          "road,highway": 0.0008615805121523172,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 0.0,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/3355.png",
+        "ious": [
+          NaN,
+          0.04525663354164532,
+          0.0013237049556204276,
+          0.0,
+          0.0,
+          0.0,
+          0.06135799178439134
+        ],
+        "mean_iou": 0.017989721713609515,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.04525663354164532,
+          "road,highway": 0.0013237049556204276,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 0.0,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": 0.06135799178439134
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2579.png",
+        "ious": [
+          0.0,
+          0.06715338576134187,
+          0.0034933033375020087,
+          0.0,
+          0.0,
+          0.0,
+          0.0010347164303586322
+        ],
+        "mean_iou": 0.010240200789886075,
+        "per_class_iou": {
+          "background": 0.0,
+          "building": 0.06715338576134187,
+          "road,highway": 0.0034933033375020087,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 0.0,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": 0.0010347164303586322
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2633.png",
+        "ious": [
+          NaN,
+          0.049313130332848946,
+          0.0003049186382591293,
+          0.0,
+          0.0,
+          0.0,
+          0.13417814105728967
+        ],
+        "mean_iou": 0.030632698338066294,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.049313130332848946,
+          "road,highway": 0.0003049186382591293,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 0.0,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": 0.13417814105728967
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2797.png",
+        "ious": [
+          NaN,
+          0.017126934544938237,
+          9.924244930364882e-05,
+          0.0,
+          0.0,
+          0.0,
+          0.022898714216004323
+        ],
+        "mean_iou": 0.0066874818683743675,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.017126934544938237,
+          "road,highway": 9.924244930364882e-05,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 0.0,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": 0.022898714216004323
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2569.png",
+        "ious": [
+          NaN,
+          0.15025857832368344,
+          0.03026711331038283,
+          0.0,
+          0.0,
+          0.0002162937145046565,
+          0.0
+        ],
+        "mean_iou": 0.030123664224761825,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.15025857832368344,
+          "road,highway": 0.03026711331038283,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 0.0,
+          "tree,tree canopy,forest": 0.0002162937145046565,
+          "agricultural,regular agricultural pattern": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2996.png",
+        "ious": [
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          0.0014137720901889093,
+          0.0,
+          0.022865910015157677
+        ],
+        "mean_iou": 0.004046613684224431,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.0,
+          "road,highway": 0.0,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 0.0014137720901889093,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": 0.022865910015157677
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2799.png",
+        "ious": [
+          NaN,
+          0.008974421392090176,
+          0.0007490372668070744,
+          NaN,
+          0.0,
+          0.0,
+          0.010329824167230163
+        ],
+        "mean_iou": 0.004010656565225483,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.008974421392090176,
+          "road,highway": 0.0007490372668070744,
+          "water,water pond": null,
+          "barren,bareland,soil": 0.0,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": 0.010329824167230163
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/3014.png",
+        "ious": [
+          0.15674838080646283,
+          0.09829228873995548,
+          0.00035137509291168325,
+          0.0,
+          0.0024113070354382675,
+          0.033426077918127024,
+          0.0028736362942807007
+        ],
+        "mean_iou": 0.042014723698168,
+        "per_class_iou": {
+          "background": 0.15674838080646283,
+          "building": 0.09829228873995548,
+          "road,highway": 0.00035137509291168325,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 0.0024113070354382675,
+          "tree,tree canopy,forest": 0.033426077918127024,
+          "agricultural,regular agricultural pattern": 0.0028736362942807007
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2774.png",
+        "ious": [
+          NaN,
+          0.01353248985237919,
+          0.0,
+          0.0,
+          5.902072807970159e-05,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.002265251763409815,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.01353248985237919,
+          "road,highway": 0.0,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 5.902072807970159e-05,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2522.png",
+        "ious": [
+          NaN,
+          0.03400155474989853,
+          0.0,
+          0.0,
+          0.002642007926023778,
+          0.0029242640192657394,
+          0.0
+        ],
+        "mean_iou": 0.006594637782531341,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.03400155474989853,
+          "road,highway": 0.0,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 0.002642007926023778,
+          "tree,tree canopy,forest": 0.0029242640192657394,
+          "agricultural,regular agricultural pattern": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2719.png",
+        "ious": [
+          NaN,
+          0.10734998832593977,
+          0.003075377901657979,
+          0.0,
+          0.0,
+          0.0,
+          0.04203254144656448
+        ],
+        "mean_iou": 0.02540965127902704,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.10734998832593977,
+          "road,highway": 0.003075377901657979,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 0.0,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": 0.04203254144656448
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2846.png",
+        "ious": [
+          NaN,
+          0.0002605160641475369,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.015786718766642626
+        ],
+        "mean_iou": 0.0026745391384650273,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.0002605160641475369,
+          "road,highway": 0.0,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 0.0,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": 0.015786718766642626
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/LoveDA/2789.png",
+        "ious": [
+          NaN,
+          0.032688241818131694,
+          0.0001867901972504483,
+          0.0,
+          0.0,
+          0.0,
+          0.008105821453589396
+        ],
+        "mean_iou": 0.00683014224482859,
+        "per_class_iou": {
+          "background": null,
+          "building": 0.032688241818131694,
+          "road,highway": 0.0001867901972504483,
+          "water,water pond": 0.0,
+          "barren,bareland,soil": 0.0,
+          "tree,tree canopy,forest": 0.0,
+          "agricultural,regular agricultural pattern": 0.008105821453589396
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "iSAID",
+    "prompt_type": "original",
+    "overall_mean_iou": 0.041281339756458986,
+    "per_class_avg_iou": {
+      "class_0": 0.17853749678867212,
+      "class_1": 0.056264255669762266,
+      "class_2": 0.01158850815988219,
+      "class_7": 0.0,
+      "class_8": 0.012816901408450704,
+      "class_9": 0.04068992443503115,
+      "class_12": 0.0,
+      "class_14": 0.00017429077063334583,
+      "class_15": 0.0333170238343513,
+      "class_5": 0.0003668213407915925,
+      "class_4": 0.021585919269532017,
+      "class_3": 0.0,
+      "class_10": 0.0,
+      "class_11": 0.0,
+      "class_13": 0.0,
+      "class_6": 0.027757054382551893
+    },
+    "per_image_results": [
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P1242_1536_2432_1536_2432.png",
+        "ious": [
+          0.003930438002406799,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.0004367153336007555,
+        "per_class_iou": {
+          "background": 0.003930438002406799,
+          "ship": 0.0,
+          "store tank": 0.0,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "ground track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": 0.0,
+          "soccer ball field": null,
+          "plane": 0.0,
+          "harbor": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0259_1024_1920_1024_1920.png",
+        "ious": [
+          0.00014213500149659795,
+          0.3421451311122902,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.05704787768563114,
+        "per_class_iou": {
+          "background": 0.00014213500149659795,
+          "ship": 0.3421451311122902,
+          "store tank": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "ground track field": null,
+          "bridge": null,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": null,
+          "soccer ball field": null,
+          "plane": 0.0,
+          "harbor": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0128_512_1408_761_1657.png",
+        "ious": [
+          2.4451073402122352e-05,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          0.023825351522123634
+        ],
+        "mean_iou": 0.0034071146565036797,
+        "per_class_iou": {
+          "background": 2.4451073402122352e-05,
+          "ship": 0.0,
+          "store tank": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": 0.0,
+          "ground track field": null,
+          "bridge": null,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": 0.0,
+          "soccer ball field": null,
+          "plane": null,
+          "harbor": 0.023825351522123634
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0801_0_896_0_896.png",
+        "ious": [
+          0.020947403351584536,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          0.24488200367966728
+        ],
+        "mean_iou": 0.037975629575893115,
+        "per_class_iou": {
+          "background": 0.020947403351584536,
+          "ship": 0.0,
+          "store tank": null,
+          "baseball diamond": null,
+          "tennis court": 0.0,
+          "basketball court": null,
+          "ground track field": null,
+          "bridge": null,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": 0.0,
+          "soccer ball field": null,
+          "plane": null,
+          "harbor": 0.24488200367966728
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0128_0_896_0_896.png",
+        "ious": [
+          0.00013142451953640765,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.023762350510910024
+        ],
+        "mean_iou": 0.0039822958384077385,
+        "per_class_iou": {
+          "background": 0.00013142451953640765,
+          "ship": 0.0,
+          "store tank": null,
+          "baseball diamond": null,
+          "tennis court": 0.0,
+          "basketball court": null,
+          "ground track field": null,
+          "bridge": null,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": null,
+          "soccer ball field": null,
+          "plane": null,
+          "harbor": 0.023762350510910024
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0261_202_1098_518_1414.png",
+        "ious": [
+          0.5387740127814719,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.2563380281690141,
+          0.6241198651850369,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.20274741516221756,
+        "per_class_iou": {
+          "background": 0.5387740127814719,
+          "ship": 0.0,
+          "store tank": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "ground track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.2563380281690141,
+          "small vehicle": 0.6241198651850369,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": null,
+          "soccer ball field": null,
+          "plane": 0.0,
+          "harbor": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P1179_1536_2432_3584_4480.png",
+        "ious": [
+          0.8047126378030796,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "mean_iou": 0.10058907972538494,
+        "per_class_iou": {
+          "background": 0.8047126378030796,
+          "ship": null,
+          "store tank": null,
+          "baseball diamond": 0.0,
+          "tennis court": 0.0,
+          "basketball court": 0.0,
+          "ground track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": 0.0,
+          "soccer ball field": null,
+          "plane": null,
+          "harbor": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P1143_0_896_4608_5504.png",
+        "ious": [
+          0.10615596470648238,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          0.0,
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0013943261650667667,
+          NaN
+        ],
+        "mean_iou": 0.008962524239295762,
+        "per_class_iou": {
+          "background": 0.10615596470648238,
+          "ship": null,
+          "store tank": 0.0,
+          "baseball diamond": 0.0,
+          "tennis court": null,
+          "basketball court": 0.0,
+          "ground track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": 0.0,
+          "swimming pool": 0.0,
+          "roundabout": 0.0,
+          "soccer ball field": 0.0,
+          "plane": 0.0013943261650667667,
+          "harbor": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P1604_0_896_1024_1920.png",
+        "ious": [
+          0.9787921516262755,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          0.0,
+          NaN
+        ],
+        "mean_iou": 0.13982745023232507,
+        "per_class_iou": {
+          "background": 0.9787921516262755,
+          "ship": null,
+          "store tank": null,
+          "baseball diamond": null,
+          "tennis court": 0.0,
+          "basketball court": null,
+          "ground track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": 0.0,
+          "soccer ball field": null,
+          "plane": 0.0,
+          "harbor": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0673_0_896_219_1115.png",
+        "ious": [
+          0.0007357359441713254,
+          NaN,
+          NaN,
+          0.0,
+          0.014887251676558008,
+          0.003301392067124333,
+          0.13878527191275947,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          NaN
+        ],
+        "mean_iou": 0.017523294622290346,
+        "per_class_iou": {
+          "background": 0.0007357359441713254,
+          "ship": null,
+          "store tank": null,
+          "baseball diamond": 0.0,
+          "tennis court": 0.014887251676558008,
+          "basketball court": 0.003301392067124333,
+          "ground track field": 0.13878527191275947,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": null,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": 0.0,
+          "soccer ball field": 0.0,
+          "plane": null,
+          "harbor": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0683_0_896_0_896.png",
+        "ious": [
+          0.5461581185411557,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          0.0038471321378608673,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          0.0
+        ],
+        "mean_iou": 0.07857217866843094,
+        "per_class_iou": {
+          "background": 0.5461581185411557,
+          "ship": 0.0,
+          "store tank": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "ground track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0038471321378608673,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": 0.0,
+          "soccer ball field": null,
+          "plane": null,
+          "harbor": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P1014_512_1408_512_1408.png",
+        "ious": [
+          3.0025443299561238e-05,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.009017317348088943,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          0.03917939788458175
+        ],
+        "mean_iou": 0.009645348135194052,
+        "per_class_iou": {
+          "background": 3.0025443299561238e-05,
+          "ship": 0.0,
+          "store tank": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "ground track field": null,
+          "bridge": null,
+          "large vehicle": null,
+          "small vehicle": 0.009017317348088943,
+          "helicopter": null,
+          "swimming pool": 0.0,
+          "roundabout": null,
+          "soccer ball field": null,
+          "plane": null,
+          "harbor": 0.03917939788458175
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P2645_1536_2432_2048_2944.png",
+        "ious": [
+          0.0035451934025975437,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.01214728455243162
+        ],
+        "mean_iou": 0.002241782565004166,
+        "per_class_iou": {
+          "background": 0.0035451934025975437,
+          "ship": 0.0,
+          "store tank": 0.0,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "ground track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": null,
+          "soccer ball field": null,
+          "plane": null,
+          "harbor": 0.01214728455243162
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P2645_2048_2944_3584_4480.png",
+        "ious": [
+          0.00029761103180802066,
+          0.0,
+          0.05731263178071689,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          0.00486367575494967
+        ],
+        "mean_iou": 0.005206159880622881,
+        "per_class_iou": {
+          "background": 0.00029761103180802066,
+          "ship": 0.0,
+          "store tank": 0.05731263178071689,
+          "baseball diamond": 0.0,
+          "tennis court": 0.0,
+          "basketball court": 0.0,
+          "ground track field": 0.0,
+          "bridge": null,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": 0.0,
+          "swimming pool": null,
+          "roundabout": 0.0,
+          "soccer ball field": null,
+          "plane": null,
+          "harbor": 0.00486367575494967
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0466_519_1415_0_896.png",
+        "ious": [
+          0.629001308679839,
+          NaN,
+          NaN,
+          0.0,
+          0.15780010247969814,
+          0.0,
+          0.0,
+          0.0,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "mean_iou": 0.09835017639494215,
+        "per_class_iou": {
+          "background": 0.629001308679839,
+          "ship": null,
+          "store tank": null,
+          "baseball diamond": 0.0,
+          "tennis court": 0.15780010247969814,
+          "basketball court": 0.0,
+          "ground track field": 0.0,
+          "bridge": 0.0,
+          "large vehicle": null,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": 0.0,
+          "soccer ball field": null,
+          "plane": null,
+          "harbor": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0262_0_896_0_896.png",
+        "ious": [
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          0.05060111619353861
+        ],
+        "mean_iou": 0.006325139524192326,
+        "per_class_iou": {
+          "background": 0.0,
+          "ship": 0.0,
+          "store tank": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": 0.0,
+          "ground track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": 0.0,
+          "soccer ball field": null,
+          "plane": null,
+          "harbor": 0.05060111619353861
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P2645_2048_2944_2048_2944.png",
+        "ious": [
+          0.0006248485011715909,
+          NaN,
+          0.011501987089177199,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          0.0,
+          0.004611729834579256
+        ],
+        "mean_iou": 0.0020923206781160056,
+        "per_class_iou": {
+          "background": 0.0006248485011715909,
+          "ship": null,
+          "store tank": 0.011501987089177199,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "ground track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": 0.0,
+          "soccer ball field": null,
+          "plane": 0.0,
+          "harbor": 0.004611729834579256
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0897_3072_3968_512_1408.png",
+        "ious": [
+          1.3117351764087052e-06,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.008865455965631713,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.012758312898971513
+        ],
+        "mean_iou": 0.004325016119955926,
+        "per_class_iou": {
+          "background": 1.3117351764087052e-06,
+          "ship": 0.0,
+          "store tank": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "ground track field": null,
+          "bridge": null,
+          "large vehicle": 0.0,
+          "small vehicle": 0.008865455965631713,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": null,
+          "soccer ball field": null,
+          "plane": null,
+          "harbor": 0.012758312898971513
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P2645_1536_2432_1536_2432.png",
+        "ious": [
+          0.0019580640032829163,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.012511757432282474
+        ],
+        "mean_iou": 0.0020671173479379127,
+        "per_class_iou": {
+          "background": 0.0019580640032829163,
+          "ship": 0.0,
+          "store tank": 0.0,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "ground track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": null,
+          "soccer ball field": null,
+          "plane": null,
+          "harbor": 0.012511757432282474
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0837_1824_2720_0_896.png",
+        "ious": [
+          0.0,
+          0.5018187039341437,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          0.20863864249903585,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.09665679068887839
+        ],
+        "mean_iou": 0.10088926714025725,
+        "per_class_iou": {
+          "background": 0.0,
+          "ship": 0.5018187039341437,
+          "store tank": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "ground track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.20863864249903585,
+          "helicopter": 0.0,
+          "swimming pool": null,
+          "roundabout": null,
+          "soccer ball field": null,
+          "plane": 0.0,
+          "harbor": 0.09665679068887839
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P1376_0_896_2048_2944.png",
+        "ious": [
+          0.0008016346265697624,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          0.0,
+          NaN
+        ],
+        "mean_iou": 8.907051406330694e-05,
+        "per_class_iou": {
+          "background": 0.0008016346265697624,
+          "ship": null,
+          "store tank": null,
+          "baseball diamond": 0.0,
+          "tennis court": null,
+          "basketball court": 0.0,
+          "ground track field": 0.0,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": 0.0,
+          "soccer ball field": null,
+          "plane": 0.0,
+          "harbor": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P2645_512_1408_3584_4480.png",
+        "ious": [
+          0.291060458575979,
+          0.0,
+          0.012304938249281232,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          0.007272610396706434
+        ],
+        "mean_iou": 0.02588650060183056,
+        "per_class_iou": {
+          "background": 0.291060458575979,
+          "ship": 0.0,
+          "store tank": 0.012304938249281232,
+          "baseball diamond": 0.0,
+          "tennis court": 0.0,
+          "basketball court": 0.0,
+          "ground track field": 0.0,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout": 0.0,
+          "soccer ball field": null,
+          "plane": null,
+          "harbor": 0.007272610396706434
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "iSAID",
+    "prompt_type": "expanded",
+    "overall_mean_iou": 0.13401220195010932,
+    "per_class_avg_iou": {
+      "class_0": 0.4194994840232131,
+      "class_2": 0.013887666777713614,
+      "class_7": 0.0,
+      "class_8": 0.015078707539353768,
+      "class_1": 0.06028313107474529,
+      "class_9": 0.04541255255236377,
+      "class_14": 0.00036198852362310293,
+      "class_15": 0.04725612295567362,
+      "class_5": 0.001739225595147365,
+      "class_12": 0.0,
+      "class_13": 0.01073285474655681,
+      "class_3": 0.0,
+      "class_10": 0.0,
+      "class_11": 0.0,
+      "class_4": 0.07751572556660626,
+      "class_6": 0.01015712718800096
+    },
+    "per_image_results": [
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P1242_1536_2432_1536_2432.png",
+        "ious": [
+          0.888923489317602,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "mean_iou": 0.2222308723294005,
+        "per_class_iou": {
+          "background,Land Cover": 0.888923489317602,
+          "ship": null,
+          "storage tank,oil tank,cylindrical container": 0.0,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": null,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": null,
+          "soccer field,football field": null,
+          "plane,aircraft": null,
+          "harbor": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0259_1024_1920_1024_1920.png",
+        "ious": [
+          0.0011287191295318074,
+          0.3421451311122902,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.05721230837363701,
+        "per_class_iou": {
+          "background,Land Cover": 0.0011287191295318074,
+          "ship": 0.3421451311122902,
+          "storage tank,oil tank,cylindrical container": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": null,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": null,
+          "soccer field,football field": null,
+          "plane,aircraft": 0.0,
+          "harbor": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0128_512_1408_761_1657.png",
+        "ious": [
+          0.002475620847622109,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.023675816463769817
+        ],
+        "mean_iou": 0.004358572885231987,
+        "per_class_iou": {
+          "background,Land Cover": 0.002475620847622109,
+          "ship": 0.0,
+          "storage tank,oil tank,cylindrical container": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": 0.0,
+          "running track,athletic track,track field": null,
+          "bridge": null,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": null,
+          "soccer field,football field": null,
+          "plane,aircraft": null,
+          "harbor": 0.023675816463769817
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0801_0_896_0_896.png",
+        "ious": [
+          0.2177811538833903,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          0.20925190180322373
+        ],
+        "mean_iou": 0.061004722240944866,
+        "per_class_iou": {
+          "background,Land Cover": 0.2177811538833903,
+          "ship": 0.0,
+          "storage tank,oil tank,cylindrical container": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": null,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": 0.0,
+          "soccer field,football field": 0.0,
+          "plane,aircraft": null,
+          "harbor": 0.20925190180322373
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0128_0_896_0_896.png",
+        "ious": [
+          0.10754193483942434,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          0.020481771942866715
+        ],
+        "mean_iou": 0.01828910096889872,
+        "per_class_iou": {
+          "background,Land Cover": 0.10754193483942434,
+          "ship": 0.0,
+          "storage tank,oil tank,cylindrical container": 0.0,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": null,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": null,
+          "soccer field,football field": 0.0,
+          "plane,aircraft": null,
+          "harbor": 0.020481771942866715
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0261_202_1098_518_1414.png",
+        "ious": [
+          0.5387740127814719,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.2563380281690141,
+          0.6241198651850369,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0
+        ],
+        "mean_iou": 0.20274741516221756,
+        "per_class_iou": {
+          "background,Land Cover": 0.5387740127814719,
+          "ship": 0.0,
+          "storage tank,oil tank,cylindrical container": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.2563380281690141,
+          "small vehicle": 0.6241198651850369,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": null,
+          "soccer field,football field": null,
+          "plane,aircraft": 0.0,
+          "harbor": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P1179_1536_2432_3584_4480.png",
+        "ious": [
+          0.9556261957908163,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "mean_iou": 0.23890654894770408,
+        "per_class_iou": {
+          "background,Land Cover": 0.9556261957908163,
+          "ship": null,
+          "storage tank,oil tank,cylindrical container": 0.0,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": null,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": null,
+          "soccer field,football field": null,
+          "plane,aircraft": null,
+          "harbor": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P1143_0_896_4608_5504.png",
+        "ious": [
+          0.09303473135129553,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0014479540944924117,
+          NaN
+        ],
+        "mean_iou": 0.008589335040526176,
+        "per_class_iou": {
+          "background,Land Cover": 0.09303473135129553,
+          "ship": null,
+          "storage tank,oil tank,cylindrical container": 0.0,
+          "baseball diamond": 0.0,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": 0.0,
+          "swimming pool": 0.0,
+          "roundabout,traffic circle": 0.0,
+          "soccer field,football field": 0.0,
+          "plane,aircraft": 0.0014479540944924117,
+          "harbor": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P1604_0_896_1024_1920.png",
+        "ious": [
+          1.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "mean_iou": 1.0,
+        "per_class_iou": {
+          "background,Land Cover": 1.0,
+          "ship": null,
+          "storage tank,oil tank,cylindrical container": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": null,
+          "large vehicle": null,
+          "small vehicle": null,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": null,
+          "soccer field,football field": null,
+          "plane,aircraft": null,
+          "harbor": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0673_0_896_219_1115.png",
+        "ious": [
+          0.12025068003203883,
+          NaN,
+          NaN,
+          0.0,
+          0.015622394140410948,
+          0.005217676785442095,
+          0.03047138156400288,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.06439712847934086,
+          NaN,
+          NaN
+        ],
+        "mean_iou": 0.03932654350020593,
+        "per_class_iou": {
+          "background,Land Cover": 0.12025068003203883,
+          "ship": null,
+          "storage tank,oil tank,cylindrical container": null,
+          "baseball diamond": 0.0,
+          "tennis court": 0.015622394140410948,
+          "basketball court": 0.005217676785442095,
+          "running track,athletic track,track field": 0.03047138156400288,
+          "bridge": null,
+          "large vehicle": null,
+          "small vehicle": null,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": null,
+          "soccer field,football field": 0.06439712847934086,
+          "plane,aircraft": null,
+          "harbor": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0683_0_896_0_896.png",
+        "ious": [
+          0.5461581185411557,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          0.0038471321378608673,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          0.0
+        ],
+        "mean_iou": 0.07857217866843094,
+        "per_class_iou": {
+          "background,Land Cover": 0.5461581185411557,
+          "ship": 0.0,
+          "storage tank,oil tank,cylindrical container": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0038471321378608673,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": 0.0,
+          "soccer field,football field": null,
+          "plane,aircraft": null,
+          "harbor": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P1014_512_1408_512_1408.png",
+        "ious": [
+          0.003009036246811466,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.009017317348088943,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          0.039280852035647004
+        ],
+        "mean_iou": 0.010261441126109484,
+        "per_class_iou": {
+          "background,Land Cover": 0.003009036246811466,
+          "ship": 0.0,
+          "storage tank,oil tank,cylindrical container": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": null,
+          "large vehicle": null,
+          "small vehicle": 0.009017317348088943,
+          "helicopter": null,
+          "swimming pool": 0.0,
+          "roundabout,traffic circle": null,
+          "soccer field,football field": null,
+          "plane,aircraft": null,
+          "harbor": 0.039280852035647004
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P2645_1536_2432_2048_2944.png",
+        "ious": [
+          0.5665176581631315,
+          0.0,
+          0.0178077247022019,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.021101703356908058
+        ],
+        "mean_iou": 0.0864895837460345,
+        "per_class_iou": {
+          "background,Land Cover": 0.5665176581631315,
+          "ship": 0.0,
+          "storage tank,oil tank,cylindrical container": 0.0178077247022019,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": null,
+          "soccer field,football field": null,
+          "plane,aircraft": null,
+          "harbor": 0.021101703356908058
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P2645_2048_2944_3584_4480.png",
+        "ious": [
+          0.7041538079618328,
+          0.0,
+          0.04630653663300921,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0
+        ],
+        "mean_iou": 0.12507672409914034,
+        "per_class_iou": {
+          "background,Land Cover": 0.7041538079618328,
+          "ship": 0.0,
+          "storage tank,oil tank,cylindrical container": 0.04630653663300921,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": null,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": null,
+          "soccer field,football field": null,
+          "plane,aircraft": null,
+          "harbor": 0.0
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0466_519_1415_0_896.png",
+        "ious": [
+          0.5720794563765881,
+          NaN,
+          NaN,
+          NaN,
+          0.13940905699280157,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN
+        ],
+        "mean_iou": 0.14229770267387792,
+        "per_class_iou": {
+          "background,Land Cover": 0.5720794563765881,
+          "ship": null,
+          "storage tank,oil tank,cylindrical container": null,
+          "baseball diamond": null,
+          "tennis court": 0.13940905699280157,
+          "basketball court": null,
+          "running track,athletic track,track field": 0.0,
+          "bridge": null,
+          "large vehicle": null,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": null,
+          "soccer field,football field": 0.0,
+          "plane,aircraft": null,
+          "harbor": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0262_0_896_0_896.png",
+        "ious": [
+          0.15533745352344358,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          0.02809964205560142
+        ],
+        "mean_iou": 0.030572849263174166,
+        "per_class_iou": {
+          "background,Land Cover": 0.15533745352344358,
+          "ship": 0.0,
+          "storage tank,oil tank,cylindrical container": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": 0.0,
+          "large vehicle": null,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": 0.0,
+          "soccer field,football field": null,
+          "plane,aircraft": null,
+          "harbor": 0.02809964205560142
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P2645_2048_2944_2048_2944.png",
+        "ious": [
+          0.7284896454652755,
+          NaN,
+          0.0608368212550919,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          NaN,
+          NaN,
+          0.007992653560982246
+        ],
+        "mean_iou": 0.11390273146876424,
+        "per_class_iou": {
+          "background,Land Cover": 0.7284896454652755,
+          "ship": null,
+          "storage tank,oil tank,cylindrical container": 0.0608368212550919,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": 0.0,
+          "soccer field,football field": null,
+          "plane,aircraft": null,
+          "harbor": 0.007992653560982246
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0897_3072_3968_512_1408.png",
+        "ious": [
+          1.3117351764087052e-06,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.008865455965631713,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.012758312898971513
+        ],
+        "mean_iou": 0.004325016119955926,
+        "per_class_iou": {
+          "background,Land Cover": 1.3117351764087052e-06,
+          "ship": 0.0,
+          "storage tank,oil tank,cylindrical container": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": null,
+          "large vehicle": 0.0,
+          "small vehicle": 0.008865455965631713,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": null,
+          "soccer field,football field": null,
+          "plane,aircraft": null,
+          "harbor": 0.012758312898971513
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P2645_1536_2432_1536_2432.png",
+        "ious": [
+          0.28798617343038524,
+          0.0,
+          0.0018478630540755016,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.010233005344388393
+        ],
+        "mean_iou": 0.04286672026126416,
+        "per_class_iou": {
+          "background,Land Cover": 0.28798617343038524,
+          "ship": 0.0,
+          "storage tank,oil tank,cylindrical container": 0.0018478630540755016,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": null,
+          "soccer field,football field": null,
+          "plane,aircraft": null,
+          "harbor": 0.010233005344388393
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P0837_1824_2720_0_896.png",
+        "ious": [
+          0.8099593258715467,
+          0.5018187039341437,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          0.21698872785829307,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.3359661848727455
+        ],
+        "mean_iou": 0.31078882375612155,
+        "per_class_iou": {
+          "background,Land Cover": 0.8099593258715467,
+          "ship": 0.5018187039341437,
+          "storage tank,oil tank,cylindrical container": null,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": 0.0,
+          "large vehicle": 0.0,
+          "small vehicle": 0.21698872785829307,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": null,
+          "soccer field,football field": null,
+          "plane,aircraft": null,
+          "harbor": 0.3359661848727455
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P1376_0_896_2048_2944.png",
+        "ious": [
+          0.09785582932578377,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          0.0,
+          NaN
+        ],
+        "mean_iou": 0.009785582932578377,
+        "per_class_iou": {
+          "background,Land Cover": 0.09785582932578377,
+          "ship": null,
+          "storage tank,oil tank,cylindrical container": 0.0,
+          "baseball diamond": 0.0,
+          "tennis court": null,
+          "basketball court": 0.0,
+          "running track,athletic track,track field": 0.0,
+          "bridge": null,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": 0.0,
+          "soccer field,football field": 0.0,
+          "plane,aircraft": 0.0,
+          "harbor": null
+        }
+      },
+      {
+        "image_path": "/data/users/syh/QwSAM3/QwSAM3TestData/iSAID/P2645_512_1408_3584_4480.png",
+        "ious": [
+          0.8319042938963636,
+          0.0,
+          0.012077722132757613,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.0,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.0
+        ],
+        "mean_iou": 0.14066366933818686,
+        "per_class_iou": {
+          "background,Land Cover": 0.8319042938963636,
+          "ship": 0.0,
+          "storage tank,oil tank,cylindrical container": 0.012077722132757613,
+          "baseball diamond": null,
+          "tennis court": null,
+          "basketball court": null,
+          "running track,athletic track,track field": null,
+          "bridge": null,
+          "large vehicle": 0.0,
+          "small vehicle": 0.0,
+          "helicopter": null,
+          "swimming pool": null,
+          "roundabout,traffic circle": null,
+          "soccer field,football field": null,
+          "plane,aircraft": null,
+          "harbor": 0.0
+        }
+      }
+    ]
+  }
+]

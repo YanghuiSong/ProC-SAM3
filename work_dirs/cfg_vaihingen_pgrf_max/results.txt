@@ -1,0 +1,36 @@
+cfg_vaihingen_pgrf_max
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_pgrf_max
+aAcc: 84.86
+mIoU: 64.45
+mAcc: 80.32
+AP50: 72.81
+AP75: 47.63
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_pgrf_max
+aAcc: 84.86
+mIoU: 64.45
+mAcc: 80.32
+AP50: 72.81
+AP75: 47.63
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_pgrf_max
+aAcc: 84.86
+mIoU: 64.45
+mAcc: 80.32
+AP50: 72.81
+AP75: 47.63
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0

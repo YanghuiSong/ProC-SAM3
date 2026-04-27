@@ -1,0 +1,9 @@
+cfg_vdd_pgrf_max
+aAcc: 78.82
+mIoU: 67.49
+mAcc: 84.29
+AP50: 70.04
+AP75: 48.49
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0

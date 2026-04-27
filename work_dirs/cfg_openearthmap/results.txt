@@ -1,0 +1,7 @@
+cfg_openearthmap
+aAcc: 60.28
+mIoU: 41.0
+mAcc: 65.79
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0

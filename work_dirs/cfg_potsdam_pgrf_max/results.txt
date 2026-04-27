@@ -1,0 +1,9 @@
+cfg_potsdam_pgrf_max
+aAcc: 78.01
+mIoU: 58.83
+mAcc: 72.27
+AP50: 59.56
+AP75: 42.87
+Model: SAM3
+Dataset: PotsdamDataset
+Data_Percent: 100.0

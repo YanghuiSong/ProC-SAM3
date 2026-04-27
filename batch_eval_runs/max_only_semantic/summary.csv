@@ -1,0 +1,9 @@
+dataset_key,dataset_name,status,duration_seconds,config,log_path,results_txt_path,aAcc,mIoU,mAcc,AP50,AP75,error
+isaid,iSAID,ok,8711.356917583966,configs/cfg_iSAID_controlled.py,batch_eval_runs/max_only_semantic/isaid.log,work_dirs/cfg_iSAID_controlled/results.txt,91.55,29.68,61.28,34.55,20.28,
+loveda,LoveDA,ok,1474.2688407209935,configs/cfg_loveda_controlled.py,batch_eval_runs/max_only_semantic/loveda.log,work_dirs/cfg_loveda_controlled/results.txt,62.5,46.14,62.91,43.48,14.57,
+openearthmap,OpenEarthMap,ok,332.27077335794456,configs/cfg_openearthmap_controlled.py,batch_eval_runs/max_only_semantic/openearthmap.log,work_dirs/cfg_openearthmap_controlled/results.txt,60.93,48.31,67.02,37.91,15.27,
+potsdam,Potsdam,ok,833.1786053340184,configs/cfg_potsdam_controlled.py,batch_eval_runs/max_only_semantic/potsdam.log,work_dirs/cfg_potsdam_controlled/results.txt,77.76,58.54,71.81,59.24,42.6,
+uavid,UAVid,ok,63.56547860894352,configs/cfg_uavid_controlled.py,batch_eval_runs/max_only_semantic/uavid.log,work_dirs/cfg_uavid_controlled/results.txt,76.09,59.73,73.51,61.9,25.0,
+udd5,UDD5,ok,48.90977572998963,configs/cfg_udd5_controlled.py,batch_eval_runs/max_only_semantic/udd5.log,work_dirs/cfg_udd5_controlled/results.txt,88.5,74.1,84.61,79.39,51.95,
+vaihingen,Vaihingen,ok,218.28331464203075,configs/cfg_vaihingen_controlled.py,batch_eval_runs/max_only_semantic/vaihingen.log,work_dirs/cfg_vaihingen_controlled/results.txt,84.56,64.3,80.13,73.18,48.79,
+vdd,VDD,ok,55.510841288021766,configs/cfg_vdd_controlled.py,batch_eval_runs/max_only_semantic/vdd.log,work_dirs/cfg_vdd_controlled/results.txt,78.77,67.52,84.21,70.04,48.49,

@@ -1,0 +1,6 @@
+road,gray street
+building,structure,yellow roof
+grass,red lawn,lawn
+tree,Tree canopy,red tree
+car,small vehicle
+clutter,mixed,scattered

@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-04-19T13:42:41",
+  "selected_datasets": [
+    "vdd",
+    "isaid"
+  ],
+  "completed": 2,
+  "failed": 0,
+  "dry_run": 0,
+  "average_metrics": {
+    "aAcc": 85.07,
+    "mIoU": 44.55,
+    "mAcc": 67.655,
+    "AP50": 46.855,
+    "AP75": 30.575
+  },
+  "records": [
+    {
+      "dataset_key": "vdd",
+      "dataset_name": "VDD",
+      "config": "configs/cfg_vdd_controlled.py",
+      "log_path": "batch_eval_runs/20260419_112458/vdd.log",
+      "results_txt_path": "work_dirs/cfg_vdd_controlled/results.txt",
+      "status": "ok",
+      "duration_seconds": 563.6002781370189,
+      "error": "",
+      "aAcc": 78.09,
+      "mIoU": 66.83,
+      "mAcc": 84.26,
+      "AP50": 67.07,
+      "AP75": 46.61,
+      "Model": "SAM3",
+      "Dataset": "VDDDataset",
+      "Data_Percent": 100.0
+    },
+    {
+      "dataset_key": "isaid",
+      "dataset_name": "iSAID",
+      "config": "configs/cfg_iSAID_controlled.py",
+      "log_path": "batch_eval_runs/20260419_112458/isaid.log",
+      "results_txt_path": "work_dirs/cfg_iSAID_controlled/results.txt",
+      "status": "ok",
+      "duration_seconds": 7694.420921677025,
+      "error": "",
+      "aAcc": 92.05,
+      "mIoU": 22.27,
+      "mAcc": 51.05,
+      "AP50": 26.64,
+      "AP75": 14.54,
+      "Model": "SAM3",
+      "Dataset": "iSAIDDataset",
+      "Data_Percent": 100.0
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+cfg_udd5_controlled
+aAcc: 87.95
+mIoU: 72.82
+mAcc: 84.06
+AP50: 78.39
+AP75: 48.84
+Model: SAM3
+Dataset: UDD5Dataset
+Data_Percent: 100.0
+cfg_udd5_controlled
+aAcc: 87.91
+mIoU: 72.74
+mAcc: 84.03
+AP50: 78.89
+AP75: 47.8
+Model: SAM3
+Dataset: UDD5Dataset
+Data_Percent: 100.0
+cfg_udd5_controlled
+aAcc: 87.95
+mIoU: 72.82
+mAcc: 84.06
+AP50: 78.39
+AP75: 48.84
+Model: SAM3
+Dataset: UDD5Dataset
+Data_Percent: 100.0
+cfg_udd5_controlled
+aAcc: 87.95
+mIoU: 72.82
+mAcc: 84.06
+AP50: 78.39
+AP75: 48.84
+Model: SAM3
+Dataset: UDD5Dataset
+Data_Percent: 100.0
+cfg_udd5_controlled
+aAcc: 87.95
+mIoU: 72.82
+mAcc: 84.06
+AP50: 78.39
+AP75: 48.84
+Model: SAM3
+Dataset: UDD5Dataset
+Data_Percent: 100.0
+cfg_udd5_controlled
+aAcc: 87.33
+mIoU: 71.61
+mAcc: 83.58
+AP50: 77.89
+AP75: 49.84
+Model: SAM3
+Dataset: UDD5Dataset
+Data_Percent: 100.0
+cfg_udd5_controlled
+aAcc: 87.77
+mIoU: 72.37
+mAcc: 84.16
+AP50: 78.39
+AP75: 50.34
+Model: SAM3
+Dataset: UDD5Dataset
+Data_Percent: 100.0
+cfg_udd5_controlled
+aAcc: 87.95
+mIoU: 72.82
+mAcc: 84.06
+AP50: 78.39
+AP75: 48.84
+Model: SAM3
+Dataset: UDD5Dataset
+Data_Percent: 100.0
+cfg_udd5_controlled
+aAcc: 87.97
+mIoU: 72.85
+mAcc: 84.09
+AP50: 78.39
+AP75: 48.84
+Model: SAM3
+Dataset: UDD5Dataset
+Data_Percent: 100.0
+cfg_udd5_controlled
+aAcc: 87.97
+mIoU: 72.85
+mAcc: 84.09
+AP50: 78.39
+AP75: 48.84
+Model: SAM3
+Dataset: UDD5Dataset
+Data_Percent: 100.0
+cfg_udd5_controlled
+aAcc: 87.95
+mIoU: 72.82
+mAcc: 84.06
+AP50: 78.39
+AP75: 48.84
+Model: SAM3
+Dataset: UDD5Dataset
+Data_Percent: 100.0
+cfg_udd5_controlled
+aAcc: 87.95
+mIoU: 72.82
+mAcc: 84.06
+AP50: 78.39
+AP75: 48.84
+Model: SAM3
+Dataset: UDD5Dataset
+Data_Percent: 100.0
+cfg_udd5_controlled
+aAcc: 88.5
+mIoU: 74.1
+mAcc: 84.61
+AP50: 79.39
+AP75: 51.95
+Model: SAM3
+Dataset: UDD5Dataset
+Data_Percent: 100.0
+cfg_udd5_controlled
+aAcc: 87.95
+mIoU: 72.82
+mAcc: 84.06
+AP50: 78.39
+AP75: 48.84
+Model: SAM3
+Dataset: UDD5Dataset
+Data_Percent: 100.0
+cfg_udd5_controlled
+aAcc: 82.62
+mIoU: 66.39
+mAcc: 78.78
+AP50: 72.34
+AP75: 43.8
+Model: SAM3
+Dataset: UDD5Dataset
+Data_Percent: 100.0

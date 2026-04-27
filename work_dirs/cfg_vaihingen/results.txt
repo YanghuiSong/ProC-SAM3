@@ -1,0 +1,63 @@
+cfg_vaihingen
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0

@@ -1,0 +1,45 @@
+cfg_vaihingenHuVL
+aAcc: 83.24
+mIoU: 61.92
+mAcc: 79.01
+AP50: 68.77
+AP75: 44.37
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingenHuVL
+aAcc: 83.91
+mIoU: 63.03
+mAcc: 79.71
+AP50: 70.95
+AP75: 45.25
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingenHuVL
+aAcc: 84.16
+mIoU: 63.25
+mAcc: 79.89
+AP50: 71.55
+AP75: 45.25
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingenHuVL
+aAcc: 84.5
+mIoU: 63.09
+mAcc: 78.48
+AP50: 71.82
+AP75: 45.84
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingenHuVL
+aAcc: 84.08
+mIoU: 62.93
+mAcc: 79.05
+AP50: 71.78
+AP75: 46.58
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0

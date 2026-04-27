@@ -1,0 +1,6 @@
+road,path
+building,roof
+grass,yard
+tree,forests
+car,vehicle
+clutter,background

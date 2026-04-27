@@ -1,0 +1,9 @@
+cfg_vaihingenHuL
+aAcc: 83.24
+mIoU: 61.92
+mAcc: 79.01
+AP50: 68.77
+AP75: 44.37
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0

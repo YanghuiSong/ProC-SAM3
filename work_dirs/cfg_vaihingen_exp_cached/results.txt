@@ -1,0 +1,162 @@
+cfg_vaihingen_exp_cached
+aAcc: 85.04
+mIoU: 64.53
+mAcc: 79.79
+AP50: 73.19
+AP75: 46.55
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 85.04
+mIoU: 64.53
+mAcc: 79.79
+AP50: 73.19
+AP75: 46.55
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 85.04
+mIoU: 64.53
+mAcc: 79.79
+AP50: 73.19
+AP75: 46.55
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 85.04
+mIoU: 64.53
+mAcc: 79.79
+AP50: 73.19
+AP75: 46.55
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 85.04
+mIoU: 64.53
+mAcc: 79.79
+AP50: 73.19
+AP75: 46.55
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 85.04
+mIoU: 64.53
+mAcc: 79.79
+AP50: 73.19
+AP75: 46.55
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 85.04
+mIoU: 64.53
+mAcc: 79.79
+AP50: 73.19
+AP75: 46.55
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 80.1
+mIoU: 56.33
+mAcc: 76.38
+AP50: 64.69
+AP75: 33.18
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 84.03
+mIoU: 60.32
+mAcc: 77.88
+AP50: 67.75
+AP75: 39.42
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 84.95
+mIoU: 64.38
+mAcc: 79.73
+AP50: 72.74
+AP75: 46.4
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 84.55
+mIoU: 61.18
+mAcc: 77.9
+AP50: 67.83
+AP75: 39.31
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 85.04
+mIoU: 64.53
+mAcc: 79.79
+AP50: 73.19
+AP75: 46.55
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 85.02
+mIoU: 64.5
+mAcc: 79.79
+AP50: 73.36
+AP75: 46.63
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 85.02
+mIoU: 64.5
+mAcc: 79.79
+AP50: 73.36
+AP75: 46.63
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 84.64
+mIoU: 63.86
+mAcc: 80.1
+AP50: 72.39
+AP75: 47.15
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 75.33
+mIoU: 57.93
+mAcc: 76.2
+AP50: 65.99
+AP75: 45.77
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 85.02
+mIoU: 64.5
+mAcc: 79.79
+AP50: 73.36
+AP75: 46.63
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_exp_cached
+aAcc: 85.02
+mIoU: 64.5
+mAcc: 79.79
+AP50: 73.36
+AP75: 46.63
+Model: SAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0

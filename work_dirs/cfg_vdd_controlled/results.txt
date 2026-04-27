@@ -1,0 +1,162 @@
+cfg_vdd_controlled
+aAcc: 67.11
+mIoU: 49.62
+mAcc: 70.77
+AP50: 49.55
+AP75: 27.76
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 67.11
+mIoU: 49.62
+mAcc: 70.77
+AP50: 49.55
+AP75: 27.76
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 71.12
+mIoU: 56.44
+mAcc: 76.04
+AP50: 60.67
+AP75: 35.52
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 66.94
+mIoU: 49.51
+mAcc: 70.74
+AP50: 49.91
+AP75: 27.76
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 76.07
+mIoU: 65.14
+mAcc: 83.14
+AP50: 67.91
+AP75: 45.85
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 76.07
+mIoU: 65.14
+mAcc: 83.14
+AP50: 67.91
+AP75: 45.85
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 78.92
+mIoU: 67.54
+mAcc: 84.68
+AP50: 69.56
+AP75: 47.43
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 78.92
+mIoU: 67.54
+mAcc: 84.68
+AP50: 69.56
+AP75: 47.43
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 78.92
+mIoU: 67.54
+mAcc: 84.68
+AP50: 69.56
+AP75: 47.43
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 77.99
+mIoU: 66.74
+mAcc: 84.2
+AP50: 67.07
+AP75: 46.2
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 78.09
+mIoU: 66.83
+mAcc: 84.26
+AP50: 67.07
+AP75: 46.61
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 78.09
+mIoU: 66.83
+mAcc: 84.26
+AP50: 67.07
+AP75: 46.61
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 78.09
+mIoU: 66.83
+mAcc: 84.26
+AP50: 67.07
+AP75: 46.61
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 78.69
+mIoU: 67.32
+mAcc: 84.54
+AP50: 69.56
+AP75: 47.84
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 78.92
+mIoU: 67.54
+mAcc: 84.68
+AP50: 69.56
+AP75: 47.43
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 78.35
+mIoU: 67.14
+mAcc: 83.97
+AP50: 70.04
+AP75: 48.14
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 78.77
+mIoU: 67.52
+mAcc: 84.21
+AP50: 70.04
+AP75: 48.49
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd_controlled
+aAcc: 78.77
+mIoU: 67.52
+mAcc: 84.21
+AP50: 70.04
+AP75: 48.49
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0

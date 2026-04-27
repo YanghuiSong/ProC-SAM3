@@ -1,0 +1,56 @@
+cfg_vdd
+aAcc: 75.06
+mIoU: 64.4
+mAcc: 82.64
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd
+aAcc: 75.67
+mIoU: 64.65
+mAcc: 83.03
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd
+aAcc: 74.6
+mIoU: 62.38
+mAcc: 79.63
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd
+aAcc: 76.03
+mIoU: 65.2
+mAcc: 83.14
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd
+aAcc: 76.08
+mIoU: 65.23
+mAcc: 83.19
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd
+aAcc: 76.09
+mIoU: 65.18
+mAcc: 83.18
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd
+aAcc: 76.15
+mIoU: 65.29
+mAcc: 83.22
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0
+cfg_vdd
+aAcc: 75.06
+mIoU: 64.4
+mAcc: 82.64
+Model: SAM3
+Dataset: VDDDataset
+Data_Percent: 100.0

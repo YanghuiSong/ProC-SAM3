@@ -1,0 +1,252 @@
+cfg_openearthmap_controlled
+aAcc: 60.27
+mIoU: 41.01
+mAcc: 65.84
+AP50: 36.07
+AP75: 14.85
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 59.74
+mIoU: 45.13
+mAcc: 63.49
+AP50: 35.53
+AP75: 15.11
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 59.74
+mIoU: 45.13
+mAcc: 63.49
+AP50: 35.53
+AP75: 15.11
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 61.05
+mIoU: 48.8
+mAcc: 66.89
+AP50: 37.4
+AP75: 15.3
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 61.05
+mIoU: 48.8
+mAcc: 66.89
+AP50: 37.4
+AP75: 15.3
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 60.02
+mIoU: 40.83
+mAcc: 59.54
+AP50: 33.89
+AP75: 11.3
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 60.02
+mIoU: 40.83
+mAcc: 59.54
+AP50: 33.89
+AP75: 11.3
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 60.01
+mIoU: 41.24
+mAcc: 67.09
+AP50: 37.46
+AP75: 14.72
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 60.02
+mIoU: 40.83
+mAcc: 59.54
+AP50: 33.89
+AP75: 11.3
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 60.01
+mIoU: 41.24
+mAcc: 67.09
+AP50: 37.46
+AP75: 14.72
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 60.01
+mIoU: 41.24
+mAcc: 67.09
+AP50: 37.46
+AP75: 14.72
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 61.05
+mIoU: 48.8
+mAcc: 66.89
+AP50: 37.4
+AP75: 15.3
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 60.02
+mIoU: 40.83
+mAcc: 59.54
+AP50: 33.89
+AP75: 11.3
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 60.68
+mIoU: 43.06
+mAcc: 61.24
+AP50: 35.46
+AP75: 13.46
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 60.47
+mIoU: 42.93
+mAcc: 61.12
+AP50: 35.32
+AP75: 13.48
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 60.5
+mIoU: 42.77
+mAcc: 60.95
+AP50: 34.96
+AP75: 12.88
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 60.45
+mIoU: 42.48
+mAcc: 60.31
+AP50: 34.53
+AP75: 13.06
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 61.05
+mIoU: 48.8
+mAcc: 66.89
+AP50: 37.4
+AP75: 15.3
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 61.06
+mIoU: 48.25
+mAcc: 67.38
+AP50: 38.01
+AP75: 15.24
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 61.06
+mIoU: 48.25
+mAcc: 67.38
+AP50: 38.01
+AP75: 15.24
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 61.05
+mIoU: 48.23
+mAcc: 67.4
+AP50: 37.95
+AP75: 15.27
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 61.05
+mIoU: 48.8
+mAcc: 66.89
+AP50: 37.4
+AP75: 15.3
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 60.93
+mIoU: 48.31
+mAcc: 67.02
+AP50: 37.91
+AP75: 15.27
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 60.93
+mIoU: 48.31
+mAcc: 67.02
+AP50: 37.91
+AP75: 15.27
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 60.93
+mIoU: 48.31
+mAcc: 67.02
+AP50: 37.91
+AP75: 15.27
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 44.45
+mIoU: 31.25
+mAcc: 53.2
+AP50: 23.18
+AP75: 9.37
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 61.05
+mIoU: 48.8
+mAcc: 66.89
+AP50: 37.4
+AP75: 15.3
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_controlled
+aAcc: 60.93
+mIoU: 48.31
+mAcc: 67.02
+AP50: 37.91
+AP75: 15.27
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0

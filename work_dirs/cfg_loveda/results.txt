@@ -1,0 +1,18 @@
+cfg_loveda
+aAcc: 54.45
+mIoU: 41.56
+mAcc: 64.74
+AP50: 40.21
+AP75: 12.91
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda
+aAcc: 54.45
+mIoU: 41.56
+mAcc: 64.74
+AP50: 40.21
+AP75: 12.91
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0

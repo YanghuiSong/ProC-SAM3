@@ -1,0 +1,3 @@
+dataset_key,dataset_name,status,duration_seconds,config,log_path,results_txt_path,aAcc,mIoU,mAcc,AP50,AP75,error
+vdd,VDD,ok,563.6002781370189,configs/cfg_vdd_controlled.py,batch_eval_runs/20260419_112458/vdd.log,work_dirs/cfg_vdd_controlled/results.txt,78.09,66.83,84.26,67.07,46.61,
+isaid,iSAID,ok,7694.420921677025,configs/cfg_iSAID_controlled.py,batch_eval_runs/20260419_112458/isaid.log,work_dirs/cfg_iSAID_controlled/results.txt,92.05,22.27,51.05,26.64,14.54,

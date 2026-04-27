@@ -1,0 +1,18 @@
+cfg_openearthmap_pgrf_max
+aAcc: 60.35
+mIoU: 41.64
+mAcc: 67.02
+AP50: 37.63
+AP75: 15.1
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0
+cfg_openearthmap_pgrf_max
+aAcc: 61.03
+mIoU: 48.9
+mAcc: 67.01
+AP50: 37.64
+AP75: 15.34
+Model: SAM3
+Dataset: OpenEarthMapDataset
+Data_Percent: 100.0

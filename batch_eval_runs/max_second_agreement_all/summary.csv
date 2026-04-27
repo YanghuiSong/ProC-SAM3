@@ -1,0 +1,9 @@
+dataset_key,dataset_name,status,duration_seconds,config,log_path,results_txt_path,aAcc,mIoU,mAcc,AP50,AP75,error
+isaid,iSAID,ok,9118.63329022599,configs/cfg_iSAID_controlled.py,batch_eval_runs/max_second_agreement_all/isaid.log,work_dirs/cfg_iSAID_controlled/results.txt,92.03,24.9,56.54,29.66,16.13,
+loveda,LoveDA,ok,1764.231585469097,configs/cfg_loveda_controlled.py,batch_eval_runs/max_second_agreement_all/loveda.log,work_dirs/cfg_loveda_controlled/results.txt,62.3,45.98,63.28,43.43,14.6,
+openearthmap,OpenEarthMap,ok,396.56030966492835,configs/cfg_openearthmap_controlled.py,batch_eval_runs/max_second_agreement_all/openearthmap.log,work_dirs/cfg_openearthmap_controlled/results.txt,61.06,48.25,67.38,38.01,15.24,
+potsdam,Potsdam,ok,1017.1854587680427,configs/cfg_potsdam_controlled.py,batch_eval_runs/max_second_agreement_all/potsdam.log,work_dirs/cfg_potsdam_controlled/results.txt,77.76,58.38,71.86,59.04,42.3,
+uavid,UAVid,ok,104.89470227598213,configs/cfg_uavid_controlled.py,batch_eval_runs/max_second_agreement_all/uavid.log,work_dirs/cfg_uavid_controlled/results.txt,76.44,59.71,75.02,60.12,24.4,
+udd5,UDD5,ok,73.68458341993392,configs/cfg_udd5_controlled.py,batch_eval_runs/max_second_agreement_all/udd5.log,work_dirs/cfg_udd5_controlled/results.txt,87.95,72.82,84.06,78.39,48.84,
+vaihingen,Vaihingen,ok,227.67684806499165,configs/cfg_vaihingen_controlled.py,batch_eval_runs/max_second_agreement_all/vaihingen.log,work_dirs/cfg_vaihingen_controlled/results.txt,84.97,64.13,79.78,73.05,46.97,
+vdd,VDD,ok,98.90431493194774,configs/cfg_vdd_controlled.py,batch_eval_runs/max_second_agreement_all/vdd.log,work_dirs/cfg_vdd_controlled/results.txt,78.69,67.32,84.54,69.56,47.84,

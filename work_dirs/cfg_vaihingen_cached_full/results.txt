@@ -1,0 +1,108 @@
+cfg_vaihingen_cached_full
+aAcc: 0.9
+mIoU: 0.15
+mAcc: 16.67
+AP50: 0.0
+AP75: 0.0
+Model: CachedSAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_cached_full
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: CachedSAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_cached_full
+aAcc: 0.9
+mIoU: 0.15
+mAcc: 16.67
+AP50: 0.0
+AP75: 0.0
+Model: CachedSAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_cached_full
+aAcc: 0.9
+mIoU: 0.15
+mAcc: 16.67
+AP50: 0.0
+AP75: 0.0
+Model: CachedSAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_cached_full
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: CachedSAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_cached_full
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: CachedSAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_cached_full
+aAcc: 11.82
+mIoU: 7.47
+mAcc: 23.22
+AP50: 5.94
+AP75: 2.93
+Model: CachedSAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_cached_full
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: CachedSAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_cached_full
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: CachedSAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_cached_full
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: CachedSAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_cached_full
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: CachedSAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0
+cfg_vaihingen_cached_full
+aAcc: 81.32
+mIoU: 60.8
+mAcc: 78.68
+AP50: 67.63
+AP75: 45.17
+Model: CachedSAM3
+Dataset: ISPRSDataset
+Data_Percent: 100.0

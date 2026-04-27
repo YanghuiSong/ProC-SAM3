@@ -1,0 +1,7 @@
+cfg_uavid
+aAcc: 77.38
+mIoU: 56.81
+mAcc: 68.05
+Model: SAM3
+Dataset: UAVidDataset
+Data_Percent: 100.0

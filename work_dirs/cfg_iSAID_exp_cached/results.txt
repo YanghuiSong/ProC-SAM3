@@ -1,0 +1,9 @@
+cfg_iSAID_exp_cached
+aAcc: 91.13
+mIoU: 29.3
+mAcc: 61.69
+AP50: 33.53
+AP75: 18.88
+Model: SAM3
+Dataset: iSAIDDataset
+Data_Percent: 100.0

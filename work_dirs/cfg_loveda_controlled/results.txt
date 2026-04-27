@@ -1,0 +1,180 @@
+cfg_loveda_controlled
+aAcc: 54.45
+mIoU: 41.56
+mAcc: 64.74
+AP50: 40.21
+AP75: 12.91
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 54.32
+mIoU: 41.41
+mAcc: 64.78
+AP50: 40.08
+AP75: 12.89
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 51.65
+mIoU: 40.55
+mAcc: 62.05
+AP50: 39.39
+AP75: 12.13
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 54.26
+mIoU: 41.21
+mAcc: 64.85
+AP50: 39.76
+AP75: 12.72
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 54.56
+mIoU: 41.41
+mAcc: 64.79
+AP50: 40.27
+AP75: 13.0
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 54.83
+mIoU: 41.69
+mAcc: 64.82
+AP50: 40.59
+AP75: 13.1
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 54.85
+mIoU: 41.68
+mAcc: 65.02
+AP50: 40.66
+AP75: 13.12
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 54.85
+mIoU: 41.68
+mAcc: 65.02
+AP50: 40.66
+AP75: 13.12
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 56.16
+mIoU: 42.28
+mAcc: 64.47
+AP50: 40.44
+AP75: 12.8
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 55.93
+mIoU: 42.05
+mAcc: 65.29
+AP50: 40.51
+AP75: 13.1
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 62.25
+mIoU: 45.81
+mAcc: 63.09
+AP50: 43.26
+AP75: 14.62
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 62.56
+mIoU: 46.21
+mAcc: 62.97
+AP50: 43.72
+AP75: 14.69
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 62.52
+mIoU: 46.19
+mAcc: 63.0
+AP50: 43.73
+AP75: 14.7
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 62.3
+mIoU: 45.98
+mAcc: 63.28
+AP50: 43.43
+AP75: 14.6
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 62.25
+mIoU: 45.81
+mAcc: 63.09
+AP50: 43.26
+AP75: 14.63
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 60.64
+mIoU: 43.79
+mAcc: 59.7
+AP50: 39.32
+AP75: 13.08
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 59.54
+mIoU: 42.14
+mAcc: 58.79
+AP50: 38.57
+AP75: 12.74
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 62.25
+mIoU: 45.81
+mAcc: 63.09
+AP50: 43.26
+AP75: 14.62
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 62.5
+mIoU: 46.14
+mAcc: 62.91
+AP50: 43.48
+AP75: 14.57
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0
+cfg_loveda_controlled
+aAcc: 62.5
+mIoU: 46.14
+mAcc: 62.91
+AP50: 43.48
+AP75: 14.57
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0

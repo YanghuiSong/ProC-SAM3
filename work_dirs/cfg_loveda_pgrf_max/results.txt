@@ -1,0 +1,9 @@
+cfg_loveda_pgrf_max
+aAcc: 62.43
+mIoU: 46.06
+mAcc: 62.99
+AP50: 43.46
+AP75: 14.61
+Model: SAM3
+Dataset: LoveDADataset
+Data_Percent: 100.0

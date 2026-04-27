@@ -1,0 +1,9 @@
+cfg_uavid_pgrf_max
+aAcc: 76.37
+mIoU: 60.04
+mAcc: 73.92
+AP50: 62.5
+AP75: 26.19
+Model: SAM3
+Dataset: UAVidDataset
+Data_Percent: 100.0

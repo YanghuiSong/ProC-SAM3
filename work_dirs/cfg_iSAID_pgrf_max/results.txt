@@ -1,0 +1,18 @@
+cfg_iSAID_pgrf_max
+aAcc: 95.93
+mIoU: 21.77
+mAcc: 33.12
+AP50: 14.05
+AP75: 8.36
+Model: SAM3
+Dataset: iSAIDDataset
+Data_Percent: 100.0
+cfg_iSAID_pgrf_max
+aAcc: 91.3
+mIoU: 29.47
+mAcc: 61.65
+AP50: 34.07
+AP75: 19.3
+Model: SAM3
+Dataset: iSAIDDataset
+Data_Percent: 100.0
