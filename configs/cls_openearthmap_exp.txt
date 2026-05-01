@@ -1,9 +1,0 @@
-background
-bareland,barren,bare soil,exposed earth
-grass,grassland,green field
-pavement,paved area,concrete surface
-road,asphalt road,traffic lane
-tree,forest,woodland
-water,river,lake
-cropland,farmland,cultivated field,agriculture land
-building,roof,house

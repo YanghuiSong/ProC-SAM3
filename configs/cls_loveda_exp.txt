@@ -1,7 +1,0 @@
-background,cluttered ground,miscellaneous land
-building,house,building rooftop,urban building
-road,asphalt road,paved road,street
-water,water body,river,pond
-barren,bareland,bare soil,wasteland
-forest,tree,dense forest,natural woodland
-agricultural,cropland,farmland,cultivated field
