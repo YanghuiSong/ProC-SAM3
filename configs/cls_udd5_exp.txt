@@ -1,0 +1,5 @@
+vegetation,lotus leaves
+building,house
+road
+vehicle
+background,sky,sports field

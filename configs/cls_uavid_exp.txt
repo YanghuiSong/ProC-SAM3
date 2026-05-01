@@ -1,0 +1,7 @@
+background,other,cluttered ground
+building,house,roof,building rooftop
+road,street,asphalt road,paved road
+car,vehicle,automobile
+tree,forest tree,tree canopy,tall tree
+vegetation,grass,greenery,low vegetation
+human,person,pedestrian
