@@ -1,8 +1,8 @@
-# QwSAM3-pgrf: Prompt-Guided Robust Fusion Framework for Segment Anything Model 3
+# Prompt-Calibrated SAM 3 for Open-Vocabulary Remote Sensing Semantic Segmentation
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
-[![PyTorch](https://img.shields.io/badge/pytorch-%3E%3D1.10-orange.svg)](https://pytorch.org/)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/pytorch-%3E%3D2.2-orange.svg)](https://pytorch.org/)
 
 ## Overview
 
