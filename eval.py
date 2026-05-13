@@ -15,11 +15,10 @@ from difflib import SequenceMatcher
 import sam3_segmentor as sam3_segmentor
 import sam3_segmentor_cached as sam3_segmentor_cached  # Import the cached version
 
-
 import custom_datasets
 
 from core.qwen_agent import QwenAgent
-from custom_counting_analysis import CustomCountingAnalyzer
+
 
 
 def parse_args():
@@ -61,8 +60,7 @@ def parse_args():
         choices=['none', 'pytorch', 'slurm', 'mpi'],
         default='none',
         help='job launcher')
-    # 褰撲娇鐢≒yTorch鐗堟湰>=2.0.0鏃讹紝`torch.distributed.launch`
-    # Support both --local_rank and --local-rank for launcher compatibility.
+    # Support both --local_rank and --local-rank for PyTorch launcher compatibility.
     parser.add_argument('--local_rank', '--local-rank', type=int, default=0)
     args = parser.parse_args()
     if 'LOCAL_RANK' not in os.environ:
@@ -318,8 +316,9 @@ def prompt_pool_contains_expansions(prompt_pool_path):
 
 def check_and_generate_expanded_prompt_pool(cfg, args):
     """
-    妫€鏌ラ厤缃腑鐨勬ā鍨嬫槸鍚﹂渶瑕佹墿灞曟彁绀烘睜锛屽鏋滈渶瑕佷絾鏂囦欢涓嶅瓨鍦紝鍒欒嚜鍔ㄧ敓鎴?    """
-    # 鑾峰彇妯″瀷閰嶇疆
+    Ensure the expanded prompt pool exists when the selected model requires it.
+    """
+    # Get the model config.
     model_cfg = cfg.get('model', {})
     
     # Check whether this model type uses an expanded prompt pool.
@@ -332,7 +331,7 @@ def check_and_generate_expanded_prompt_pool(cfg, args):
         print("Model does not require expanded prompt pool, skipping check.")
         return
     
-    # 妫€鏌ユā鍨嬮厤缃腑鏄惁鏄庣‘鍚敤浜嗘墿灞曟彁绀烘睜鍔熻兘
+    # Check whether expanded prompts are enabled in the model config.
     enable_expanded_prompt = model_cfg.get('enable_expanded_prompt', False)
     if not enable_expanded_prompt:
         print("Expanded prompt pool is not enabled in model config, skipping check.")
@@ -341,7 +340,7 @@ def check_and_generate_expanded_prompt_pool(cfg, args):
     # Build the output filename from the config name and optimization method.
     config_basename = os.path.basename(args.config).replace('.py', '')
     
-    # 鑾峰彇浼樺寲鏂规硶锛岄粯璁や负guided
+    # Resolve the optimization method.
     optimize_method = normalize_optimize_method(
         model_cfg.get('optimize_method', 'guided')
     )
@@ -350,7 +349,7 @@ def check_and_generate_expanded_prompt_pool(cfg, args):
     
     output_path = f"./prompt_pools/{config_basename}_expanded_prompt_pool_{optimize_method}.pkl"
     
-    # 纭繚鐩綍瀛樺湪
+    # Ensure the output directory exists.
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     classname_path = model_cfg.get('classname_path', '')
     exp_classname_path = classname_path.replace('.txt', '_exp.txt') if classname_path else ''
@@ -391,7 +390,7 @@ def check_and_generate_expanded_prompt_pool(cfg, args):
         )
         should_regenerate = True
     
-    # 濡傛灉鎵╁睍鎻愮ず姹犳枃浠朵笉瀛樺湪锛屽垯鐢熸垚
+    # Generate the expanded prompt pool when it is missing or stale.
     if should_regenerate:
         print(f"Generating expanded prompt pool at {output_path}...")
         
@@ -400,7 +399,7 @@ def check_and_generate_expanded_prompt_pool(cfg, args):
             with open(classname_path, 'r') as f:
                 class_names = [line.strip() for line in f.readlines() if line.strip()]
         else:
-            # 鍙湁鍦ㄦ棤娉曚粠classname_path鑾峰彇鏃舵墠浣跨敤閰嶇疆涓殑class_names
+            # Fall back to config class_names when classname_path is unavailable.
             class_names = cfg.get('class_names', [])
         
         class_names = [class_name.split(',')[0].strip() for class_name in class_names]
@@ -409,23 +408,23 @@ def check_and_generate_expanded_prompt_pool(cfg, args):
             print("Error: class_names not found in config, cannot generate expanded prompt pool")
             return
         
-        # 鑾峰彇鏁版嵁闆嗙被鍨嬩互浼犻€掔粰QwenAgent
+        # Get the dataset type for QwenAgent.
         dataset_type = cfg.get('dataset_type', '').lower()
         
         # Handle preset mode separately.
         if optimize_method == 'preset':
             print("Using preset optimization method. Loading predefined prompts.")
             
-            # 灏濊瘯鍔犺浇鎵╁睍绫诲埆鏂囦欢 (exp file)
+            # Check whether the exp file is available.
             if os.path.exists(exp_classname_path):
                 print(f"Exp file found: {exp_classname_path}, using it as constraint for Qwen3 inference")
             else:
                 print(f"Exp file not found: {exp_classname_path}, will use base classes only")
                 
-            # 鍒濆鍖朡wenAgent骞朵紶閫掓暟鎹泦鍚嶇О
+            # Initialize QwenAgent with the dataset name.
             qwen_agent = QwenAgent(dataset_name=dataset_type)
             
-            # 鐢熸垚鎵╁睍鎻愮ず璇?- preset妯″紡涓嬩細浣跨敤exp鏂囦欢鍐呭浣滀负绾︽潫杩涜鎺ㄧ悊
+            # Generate expanded prompts under preset-mode constraints.
             expanded_prompts = qwen_agent.generate_expanded_class_prompts(
                 base_classes=class_names,
                 image_paths=[],  # Preset mode does not require sample images.
@@ -433,7 +432,7 @@ def check_and_generate_expanded_prompt_pool(cfg, args):
                 optimize_method=optimize_method
             )
             
-            # 鍗充娇鍦╬reset妯″紡涓嬩篃杩斿洖锛屼絾蹇呴』鍏堣缃甧xpanded_prompt_pool_path
+            # Store the prompt-pool path before returning from preset mode.
             model_cfg['expanded_prompt_pool_path'] = output_path
             cfg.model = model_cfg
             return
@@ -447,13 +446,13 @@ def check_and_generate_expanded_prompt_pool(cfg, args):
             else:
                 print(f"Exp file not found: {exp_classname_path}, falling back to adaptive prompts")
 
-        # 闈?preset 妯″紡 (guided, hybrid 绛? 闇€瑕佹暟鎹牴鐩綍鍜屽浘鍍?        # 鑾峰彇鏁版嵁闆嗘牴鐩綍
+        # Non-preset modes need the dataset root and sample images.
         data_root = cfg.get('data_root', '')
         if not data_root:
             print("Error: data_root not found in config, cannot generate expanded prompt pool")
             return
         
-        # 鑾峰彇楠岃瘉鍥惧儚璺緞
+        # Collect candidate validation image directories.
         candidate_img_dirs = []
         test_dataset_cfg = cfg.get('test_dataloader', {}).get('dataset', {})
         data_prefix = test_dataset_cfg.get('data_prefix', {})
@@ -513,7 +512,7 @@ def check_and_generate_expanded_prompt_pool(cfg, args):
                 predefined_prompts = load_best_prompts_from_main_classfile(classname_path)
                 print(f"Loaded best prompts from main classfile: {classname_path}")
         
-        # 鍒濆鍖朡wenAgent骞朵紶閫掓暟鎹泦鍚嶇О
+        # Initialize QwenAgent with the dataset name.
         qwen_agent = QwenAgent(dataset_name=dataset_type)
         
         # Generate the expanded prompt pool.
@@ -528,11 +527,12 @@ def check_and_generate_expanded_prompt_pool(cfg, args):
         print(f"Expanded prompt pool generation completed. Saved to {output_path}")
     else:
         print(f"Using existing expanded prompt pool at {output_path}")
-        # 鍒犻櫎鐜版湁鏂囦欢浠ュ己鍒堕噸鏂扮敓鎴愶紙鐢ㄤ簬璋冭瘯鐩殑锛?        # os.remove(output_path)
+        # Uncomment these lines to force regeneration during debugging.
+        # os.remove(output_path)
         # print(f"Existing file deleted. Please re-run to regenerate.")
     
-    # 灏嗘墿灞曟彁绀烘睜璺緞娣诲姞鍒版ā鍨嬮厤缃腑
-    # 纭繚鏃犺鏂囦欢鏄柊鐢熸垚杩樻槸宸插瓨鍦紝閰嶇疆閮借鏇存柊
+    # Keep the model config updated with the expanded prompt-pool path.
+    # This applies whether the pool was generated or reused.
     model_cfg['expanded_prompt_pool_path'] = output_path
     cfg.model = model_cfg
 
@@ -577,7 +577,8 @@ def load_expanded_prompts_from_exp_file(exp_classname_path):
 
 def load_best_prompts_from_main_classfile(classname_path):
     """
-    浠庝富瑕佺被鍒枃浠朵腑鎻愬彇鎵╁睍鎻愮ず浣滀负棰勫畾涔夋彁绀?    """
+    Load prompt variants from the main class-name file.
+    """
     predefined_prompts = {}
     
     with open(classname_path, 'r') as f:
@@ -599,8 +600,9 @@ def load_best_prompts_from_main_classfile(classname_path):
 
 def check_and_generate_prompt_pool(cfg):
     """
-    妫€鏌ラ厤缃腑鐨勬ā鍨嬫槸鍚﹂渶瑕佹彁绀烘睜锛屽鏋滈渶瑕佷絾鏂囦欢涓嶅瓨鍦紝鍒欒嚜鍔ㄧ敓鎴?    """
-    # 鑾峰彇妯″瀷閰嶇疆
+    Ensure the standard prompt pool exists when the selected model requires it.
+    """
+    # Get the model config.
     model_cfg = cfg.get('model', {})
     
     # Check whether this model type requires a standard prompt pool.
@@ -613,31 +615,31 @@ def check_and_generate_prompt_pool(cfg):
     prompt_pool_path = model_cfg.get('prompt_pool_path', './prompt_pool.pkl')
     pool_building_percent = model_cfg.get('pool_building_percent', 10.0)
     
-    # 濡傛灉鎻愮ず姹犳枃浠朵笉瀛樺湪锛屽垯鐢熸垚
+    # Generate the prompt pool when it is missing.
     if not os.path.exists(prompt_pool_path):
         print(f"Prompt pool not found at {prompt_pool_path}, generating now...")
         
-        # 瀵煎叆鐢熸垚鍑芥暟
+        # Import the prompt-pool generation helper.
         from generate_prompt_pool import generate_prompt_pool
         
-        # 鑾峰彇鏁版嵁闆嗘牴鐩綍
+        # Get the dataset root directory.
         data_root = cfg.get('data_root', '')
         if not data_root:
             print("Error: data_root not found in config, cannot generate prompt pool")
             print("Error: data_root not found in config, cannot generate prompt pool")
             return
         
-        # 鑾峰彇绫诲埆鏂囦欢璺緞
+        # Resolve class-name and exp-file paths.
         classname_path = model_cfg.get('classname_path', '')
         if not classname_path:
             print("Error: classname_path not found in model config, cannot generate prompt pool")
             return
         
-        # 璇诲彇绫诲埆鍚嶇О
+        # Read class names from the class-name file.
         with open(classname_path, 'r') as f:
             class_names = [line.strip() for line in f.readlines() if line.strip()]
         
-        # 鑾峰彇楠岃瘉鍥惧儚璺緞
+        # Resolve the validation image directory.
         val_img_dir = os.path.join(data_root, 'img_dir', 'val')
         if not os.path.exists(val_img_dir):
             print(f"Validation image directory does not exist: {val_img_dir}")
@@ -654,7 +656,7 @@ def check_and_generate_prompt_pool(cfg):
         
         # Determine how many images to sample for prompt pool construction.
         num_images_to_use = max(1, int(len(image_paths) * pool_building_percent / 100))
-        # 浣跨敤鍥哄畾鐨勯殢鏈虹瀛愮‘淇濈粨鏋滃彲閲嶇幇
+        # Use a fixed random seed for reproducible sampling.
         import random
         rng = random.Random(42)  
         sampled_image_paths = rng.sample(image_paths, min(num_images_to_use, len(image_paths)))
@@ -677,11 +679,12 @@ def check_and_generate_prompt_pool(cfg):
 
 def build_concept_pool_for_improved_model(cfg, runner):
     """
-    涓篒mprovedEnhancedSegEarthOV3Segmentation妯″瀷鏋勫缓姒傚康姹?    """
+    Build the concept pool for ImprovedEnhancedSegEarthOV3Segmentation models.
+    """
     model_cfg = cfg.get('model', {})
     model_type = model_cfg.get('type', '')
     
-    # 妫€鏌ユ槸鍚︽槸ImprovedEnhancedSegEarthOV3Segmentation妯″瀷
+    # Check whether this model needs concept-pool construction.
     if 'ImprovedEnhancedSegEarthOV3Segmentation' not in model_type:
         print("Model is not ImprovedEnhancedSegEarthOV3Segmentation, skipping concept pool building.")
         return
@@ -689,16 +692,16 @@ def build_concept_pool_for_improved_model(cfg, runner):
     # Get the actual model instance, unwrapping DDP when needed.
     model = runner.model
     if hasattr(model, 'module'):
-        # 濡傛灉鏄垎甯冨紡妯″瀷锛屼娇鐢?module 璁块棶瀹為檯妯″瀷
+        # Use module to access the wrapped model in distributed mode.
         actual_model = model.module
     else:
-        # 濡傛灉涓嶆槸鍒嗗竷寮忔ā鍨嬶紝鐩存帴浣跨敤妯″瀷
+        # Use the model directly when it is not wrapped.
         actual_model = model
     
     # Access the test dataset for concept-pool construction.
     test_dataset = runner.test_loop.dataloader.dataset
     
-    # 璋冪敤妯″瀷鐨刡uild_concept_pool鏂规硶
+    # Call the model concept-pool builder.
     actual_model.build_concept_pool(test_dataset, seed=42)
     
     print("Concept pool building completed.")
@@ -706,9 +709,9 @@ def build_concept_pool_for_improved_model(cfg, runner):
 
 def perform_custom_counting_analysis(cfg, args):
     """
-    鎵ц鑷畾涔夎鏁板垎鏋愶紝涓嶴AM3鍒嗗壊缁撴灉杩涜瀵规瘮
+    Run optional custom counting analysis and compare it with SAM3 outputs.
     """
-    # 鑾峰彇閰嶇疆鍙傛暟
+    # Get the model config.
     model_cfg = cfg.get('model', {})
     model_type = model_cfg.get('type', '')
     
@@ -720,13 +723,13 @@ def perform_custom_counting_analysis(cfg, args):
     
     print("Starting custom counting analysis...")
     
-    # 鑾峰彇鏁版嵁闆嗘牴鐩綍
+    # Get the dataset root directory.
     data_root = cfg.get('data_root', '')
     if not data_root:
         print("Error: data_root not found in config, cannot perform counting analysis")
         return
     
-    # 鑾峰彇绫诲埆鍚嶇О
+    # Get class names.
     class_names = cfg.get('class_names', [])
     if not class_names:
         classname_path = model_cfg.get('classname_path', '')
@@ -738,13 +741,13 @@ def perform_custom_counting_analysis(cfg, args):
         print("Error: class_names not found in config, cannot perform counting analysis")
         return
     
-    # 鑾峰彇楠岃瘉鍥惧儚璺緞锛堟渶澶?寮狅級
+    # Resolve the validation image directory.
     val_img_dir = os.path.join(data_root, 'img_dir', 'val')
     if not os.path.exists(val_img_dir):
         print(f"Validation image directory does not exist: {val_img_dir}")
         return
     
-    # 鑾峰彇鍥惧儚鏂囦欢
+    # Define supported image file extensions.
     image_extensions = ['.jpg', '.jpeg', '.png', '.tif', '.tiff']
     image_paths = []
     
@@ -762,7 +765,7 @@ def perform_custom_counting_analysis(cfg, args):
     # Resolve the expanded prompt pool path for counting analysis.
     prompt_pool_path = model_cfg.get('expanded_prompt_pool_path', None)
     
-    # 鍒涘缓鍒嗘瀽鍣ㄥ苟鎵ц鍒嗘瀽
+    # Create the analyzer and run the counting analysis.
     analyzer = CustomCountingAnalyzer()
     results = analyzer.batch_analyze(
         image_paths=image_paths,
@@ -784,10 +787,10 @@ def main():
     # Ensure the expanded prompt pool exists before model initialization.
     check_and_generate_expanded_prompt_pool(cfg, args)
     
-    # 鐒跺悗妫€鏌ュ苟鐢熸垚鏅€氭彁绀烘睜
+    # Ensure the standard prompt pool exists before evaluation.
     check_and_generate_prompt_pool(cfg)
     
-    # add output_dir in metric
+    # Add output_dir to the metric config when requested.
     if args.out is not None:
         cfg.test_evaluator['output_dir'] = args.out
         cfg.test_evaluator['keep_results'] = True
@@ -795,13 +798,13 @@ def main():
                             osp.splitext(osp.basename(args.config))[0])
 
     # trigger_visualization_hook(cfg, args)
-    # 姝ゆ椂鍒濆鍖栨ā鍨嬶紝鎻愮ず姹犲凡鍑嗗灏辩华
+    # Initialize the runner after prompt pools are ready.
     runner = Runner.from_cfg(cfg)
     
     # Build the concept pool for models that need it.
     build_concept_pool_for_improved_model(cfg, runner)
     
-    # Modify runner to use only a percentage of data
+    # Modify the runner to use only a percentage of data.
     runner = modify_runner_for_percent_data(runner, args.percent, args.seed)
     
     results = runner.test()
@@ -825,4 +828,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
