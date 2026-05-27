@@ -53,7 +53,7 @@ Our method achieves the highest average performance across all datasets.
 ## Run Evaluation on a Dataset
 
 ```bash
-python eval.py --config configs/cfg_DATASET_pgrf_max.py
+python eval.py configs/cfg_DATASET.py
 ```
 
 Replace `DATASET` with the desired dataset name (e.g., `vaihingen`, `potsdam`).
