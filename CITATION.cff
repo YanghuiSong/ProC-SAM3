@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite this software repository and the associated paper (under review)."
-title: "ProC-SAM3"
+title: "ProC-SAM3: Prompt-Calibrated SAM 3 for Open-Vocabulary Remote Sensing Semantic Segmentation"
 version: 1.0.0
-date-released: YYYY-MM-DD
+date-released: 2026-06-02
 type: software
 authors:
   - family-names: Song
@@ -28,9 +28,11 @@ authors:
 repository: "https://github.com/YanghuiSong/ProC-SAM3"
 repository-code: "https://github.com/YanghuiSong/ProC-SAM3"
 url: "https://github.com/YanghuiSong/ProC-SAM3"
-abstract: "Source code for ProC-SAM3. The associated paper is currently under review."
+abstract: "Source code for ProC-SAM3, a prompt-calibrated SAM 3 framework for open-vocabulary remote sensing semantic segmentation. The associated paper is currently under review."
 keywords:
-  - segmentation
-  - SAM
+  - remote sensing
+  - semantic segmentation
+  - SAM3
+  - open vocabulary
   - computer vision
 license: MIT
