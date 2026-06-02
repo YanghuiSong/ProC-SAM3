@@ -68,6 +68,17 @@ python visualize_segmentation.py --input-path images/ --output-dir results/
 
 This work is based on [SAM 3](https://github.com/facebookresearch/sam3) and [SegEarth‑OV3](https://github.com/earth-insights/SegEarth-OV-3). We thank the authors for their excellent open‑source contributions.
 
-## Terms of Use
+## Citation
+If you find our work useful, please cite our paper (under review) and the code repository:
 
-This code is released under the **[MIT]** license. As an additional academic courtesy, **if you use this code in your research, project, or publication, you must cite it as described in the "Citation" section above**. Thank you for respecting our work.
+```bibtex
+@misc{ProC-SAM3_2026_github,
+  author       = {Yanghui Song and Nanqing Liu and Haonan Yin and Yingjie Gao and Chengfu Yang and Qi Ming},
+  title        = {ProC-SAM3: Prompt-Calibrated SAM 3 for Open-Vocabulary Remote Sensing Semantic Segmentation},
+  year         = 2026,
+  publisher    = {GitHub},
+  journal      = {GitHub repository},
+  howpublished = {\url{https://github.com/YanghuiSong/ProC-SAM3}},
+  note         = {Paper under review; software version 1.0.0},
+  doi          = {}
+}
