@@ -1,14 +1,8 @@
-
----
-
-## 2. `CITATION.cff` file (place in repository root)
-
-```yaml
 cff-version: 1.2.0
 message: "If you use this code, please cite this software repository and the associated paper (under review)."
 title: "ProC-SAM3"
 version: 1.0.0
-date-released: 2024-12-01   # Replace with the actual release date
+date-released: YYYY-MM-DD
 type: software
 authors:
   - family-names: Song
@@ -36,7 +30,7 @@ repository-code: "https://github.com/YanghuiSong/ProC-SAM3"
 url: "https://github.com/YanghuiSong/ProC-SAM3"
 abstract: "Source code for ProC-SAM3. The associated paper is currently under review."
 keywords:
-  - "segmentation"
-  - "SAM"
-  - "computer vision"
-license: "MIT"   # Change to your actual license
+  - segmentation
+  - SAM
+  - computer vision
+license: MIT
