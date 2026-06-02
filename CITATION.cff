@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite this software repository and the associated paper (under review)."
+title: "ProC-SAM3"
+version: 1.0.0
+date-released: 2024-12-01   # Replace with the actual release date
+type: software
+authors:
+  - family-names: Song
+    given-names: Yanghui
+    email: yanghuisong55@gmail.com
+    orcid: ""
+  - family-names: Liu
+    given-names: Nanqing
+    email: lansing163@163.com
+    orcid: "0009-0008-5841-5109"
+  - family-names: Yin
+    given-names: Haonan
+    email: haonanyin26@gmail.com
+  - family-names: Gao
+    given-names: Yingjie
+    email: gaoyingjie@buaa.edu.cn
+  - family-names: Yang
+    given-names: Chengfu
+    email: yangchengfu@ynnu.edu.cn
+  - family-names: Ming
+    given-names: Qi
+    email: chaser.ming@gmail.com
+repository: "https://github.com/YanghuiSong/ProC-SAM3"
+repository-code: "https://github.com/YanghuiSong/ProC-SAM3"
+url: "https://github.com/YanghuiSong/ProC-SAM3"
+abstract: "Source code for ProC-SAM3. The associated paper is currently under review."
+keywords:
+  - "segmentation"
+  - "SAM"
+  - "computer vision"
+license: "MIT"  
