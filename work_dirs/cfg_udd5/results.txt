@@ -1,0 +1,9 @@
+cfg_udd5
+aAcc: 88.24
+mIoU: 73.4
+mAcc: 84.39
+AP50: 78.89
+AP75: 48.84
+Model: SAM3
+Dataset: UDD5Dataset
+Data_Percent: 100.0
