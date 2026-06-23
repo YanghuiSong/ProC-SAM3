@@ -3,6 +3,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/pytorch-%3E%3D2.2-orange.svg)](https://pytorch.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2606.21863-red.svg)](https://arxiv.org/abs/2606.21863)
 
 ## Overview
 
@@ -72,13 +73,12 @@ This work is based on [SAM 3](https://github.com/facebookresearch/sam3) and [S
 If you find our work useful, please cite our paper (under review) and the code repository:
 
 ```bibtex
-@misc{ProC-SAM3_2026_github,
-  author       = {Yanghui Song and Nanqing Liu and Haonan Yin and Yingjie Gao and Chengfu Yang and Qi Ming},
-  title        = {ProC-SAM3: Prompt-Calibrated SAM 3 for Open-Vocabulary Remote Sensing Semantic Segmentation},
-  year         = 2026,
-  publisher    = {GitHub},
-  journal      = {GitHub repository},
-  howpublished = {\url{https://github.com/YanghuiSong/ProC-SAM3}},
-  note         = {Paper under review; software version 1.0.0},
-  doi          = {}
+@misc{song2026promptcalibratedsam3openvocabulary,
+      title={Prompt-Calibrated SAM 3 for Open-Vocabulary Remote Sensing Semantic Segmentation}, 
+      author={Yanghui Song and Nanqing Liu and Haonan Yin and Yingjie Gao and Chengfu Yang and Qi Ming},
+      year={2026},
+      eprint={2606.21863},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2606.21863}, 
 }
