@@ -5,7 +5,7 @@ from mmseg.models.segmentors import BaseSegmentor
 from mmengine.structures import PixelData, InstanceData
 from mmseg.registry import MODELS
 from PIL import Image
-from config import Config
+from configs.config import Config
 
 from core.grounding_execution_engine import GroundingExecutionEngine
 from core.prompt_bank import PromptBank
