@@ -73,12 +73,12 @@ This work is based on [SAM 3](https://github.com/facebookresearch/sam3) and [S
 If you find our work useful, please cite our paper (under review) and the code repository:
 
 ```bibtex
-@misc{song2026promptcalibratedsam3openvocabulary,
-      title={Prompt-Calibrated SAM 3 for Open-Vocabulary Remote Sensing Semantic Segmentation}, 
-      author={Yanghui Song and Nanqing Liu and Haonan Yin and Yingjie Gao and Chengfu Yang and Qi Ming},
-      year={2026},
-      eprint={2606.21863},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2606.21863}, 
-}
+@ARTICLE{11609477,
+  author={Song, Yanghui and Liu, Nanqing and Yin, Haonan and Gao, Yingjie and Yang, Chengfu and Ming, Qi},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={Prompt-Calibrated SAM 3 for Open-Vocabulary Remote-Sensing Semantic Segmentation}, 
+  year={2026},
+  volume={23},
+  number={},
+  pages={6015205-6015205},
+  doi={10.1109/LGRS.2026.3713378}}
