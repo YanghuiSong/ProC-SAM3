@@ -70,7 +70,7 @@ python visualize_segmentation.py --input-path images/ --output-dir results/
 This work is based on [SAM 3](https://github.com/facebookresearch/sam3) and [SegEarth‑OV3](https://github.com/earth-insights/SegEarth-OV-3). We thank the authors for their excellent open‑source contributions.
 
 ## Citation
-If you find our work useful, please cite our paper (under review) and the code repository:
+If you find our work useful, please cite our paper and the code repository:
 
 ```bibtex
 @ARTICLE{11609477,
